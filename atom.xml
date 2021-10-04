@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T03:57:06.412Z</updated>
+    <updated>2021-10-04T04:14:44.075Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,69 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[input之type属性单选按钮和复选框]]></title>
+        <id>https://lisizero.github.io/post/input-zhi-type-shu-xing-dan-xuan-an-niu-he-fu-xuan-kuang/</id>
+        <link href="https://lisizero.github.io/post/input-zhi-type-shu-xing-dan-xuan-an-niu-he-fu-xuan-kuang/">
+        </link>
+        <updated>2021-10-04T04:03:01.000Z</updated>
+        <content type="html"><![CDATA[<p>type 属性的属性值及其描述如下：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>button</td>
+<td>定义可点击按钮（多数情况下，用于通过 JavaScript 启动脚本）。</td>
+</tr>
+<tr>
+<td>checkbox</td>
+<td>定义复选框。</td>
+</tr>
+<tr>
+<td>file</td>
+<td>定义输入字段和“浏览”按钮，供文件上传。</td>
+</tr>
+<tr>
+<td>hidden</td>
+<td>定义隐藏的输入字段。</td>
+</tr>
+<tr>
+<td>image</td>
+<td>定义图像形式的提交按钮。</td>
+</tr>
+<tr>
+<td>password</td>
+<td>定义密码字段。该字段中的字符被掩码。</td>
+</tr>
+<tr>
+<td>radio</td>
+<td>定义单选按钮。</td>
+</tr>
+<tr>
+<td>reset</td>
+<td>定义重置按钮。重置按钮会清除表单中的所有数据。</td>
+</tr>
+<tr>
+<td>submit</td>
+<td>定义提交按钮。提交按钮会把表单数据发送到服务器。</td>
+</tr>
+<tr>
+<td>text</td>
+<td>定义单行的输入字段，用户可在其中输入文本。默认宽度为20个字符。</td>
+</tr>
+</tbody>
+</table>
+<p>代码展示：<br>
+<img src="https://lisizero.github.io//post-images/1633320760805.png" alt="" loading="lazy"><br>
+效果：<br>
+<img src="https://lisizero.github.io//post-images/1633320825062.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[表单控件（表单元素）input之type属性文本框和密码框]]></title>
         <id>https://lisizero.github.io/post/biao-dan-kong-jian-biao-dan-yuan-su/</id>
