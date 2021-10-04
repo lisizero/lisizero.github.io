@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T03:43:02.904Z</updated>
+    <updated>2021-10-04T03:51:26.361Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[表单控件（表单元素）]]></title>
+        <title type="html"><![CDATA[表单控件（表单元素）input之type属性文本框和密码框]]></title>
         <id>https://lisizero.github.io/post/biao-dan-kong-jian-biao-dan-yuan-su/</id>
         <link href="https://lisizero.github.io/post/biao-dan-kong-jian-biao-dan-yuan-su/">
         </link>
@@ -76,9 +76,9 @@
 </tbody>
 </table>
 <p>代码展示：<br>
-<img src="https://lisizero.github.io//post-images/1633318951338.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633319464062.png" alt="" loading="lazy"><br>
 效果：<br>
-<img src="https://lisizero.github.io//post-images/1633318976163.png" alt="" loading="lazy"></p>
+<img src="https://lisizero.github.io//post-images/1633319481236.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
