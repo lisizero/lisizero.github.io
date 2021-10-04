@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T03:16:20.412Z</updated>
+    <updated>2021-10-04T03:31:37.401Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -24,6 +24,57 @@
 <li>textarea 文本域元素<br>
 <img src="https://lisizero.github.io//post-images/1633317371445.png" alt="" loading="lazy"></li>
 </ol>
+<p>type 属性的属性值及其描述如下：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>button</td>
+<td>定义可点击按钮（多数情况下，用于通过 JavaScript 启动脚本）。</td>
+</tr>
+<tr>
+<td>checkbox</td>
+<td>定义复选框。</td>
+</tr>
+<tr>
+<td>file</td>
+<td>定义输入字段和“浏览”按钮，供文件上传。</td>
+</tr>
+<tr>
+<td>hidden</td>
+<td>定义隐藏的输入字段。</td>
+</tr>
+<tr>
+<td>image</td>
+<td>定义图像形式的提交按钮。</td>
+</tr>
+<tr>
+<td>password</td>
+<td>定义密码字段。该字段中的字符被掩码。</td>
+</tr>
+<tr>
+<td>radio</td>
+<td>定义单选按钮。</td>
+</tr>
+<tr>
+<td>reset</td>
+<td>定义重置按钮。重置按钮会清除表单中的所有数据。</td>
+</tr>
+<tr>
+<td>submit</td>
+<td>定义提交按钮。提交按钮会把表单数据发送到服务器。</td>
+</tr>
+<tr>
+<td>text</td>
+<td>定义单行的输入字段，用户可在其中输入文本。默认宽度为20个字符。</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     <entry>
