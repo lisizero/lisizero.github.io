@@ -2,19 +2,41 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于本站 | Gridea</title>
+<title>input之checked和maxlength属性 | Gridea</title>
 <link rel="shortcut icon" href="https://lisizero.github.io//favicon.ico?v=1633326783777">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lisizero.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于本站 | Gridea - Atom Feed" href="https://lisizero.github.io//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="input之checked和maxlength属性 | Gridea - Atom Feed" href="https://lisizero.github.io//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="分享一些自己学到的东西。
-黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+移动端前端视频教程
-传送门：https://www.bilibili.com/video/BV14J4114768?p=45
-..." />
+    <meta name="description" content="
+
+
+属性
+属性值
+描述
+
+
+
+
+name
+由用户自定义
+定义 input 元素的名称。
+
+
+value
+由用户自定义
+规定input 元素的值。
+
+
+checked
+checked
+规定此 input 元素首次加载时应当选中。
+
+
+max..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -77,7 +99,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于本站
+              input之checked和maxlength属性
             </h2>
             <div class="post-info">
               <span>
@@ -91,9 +113,49 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>分享一些自己学到的东西。<br>
-黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+移动端前端视频教程<br>
-传送门：https://www.bilibili.com/video/BV14J4114768?p=45</p>
+                <table>
+<thead>
+<tr>
+<th>属性</th>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>由用户自定义</td>
+<td>定义 input 元素的名称。</td>
+</tr>
+<tr>
+<td>value</td>
+<td>由用户自定义</td>
+<td>规定input 元素的值。</td>
+</tr>
+<tr>
+<td>checked</td>
+<td>checked</td>
+<td>规定此 input 元素首次加载时应当选中。</td>
+</tr>
+<tr>
+<td>maxlength</td>
+<td>正整数</td>
+<td>规定输入字段中的字符的最大长度。</td>
+</tr>
+</tbody>
+</table>
+<p>单选按钮和复选框可以设置checked 属性，当页面打开的时候就可以默认选中这个按钮<br>
+代码展示：<br>
+<img src="https://lisizero.github.io//post-images/1633325533540.png" alt="" loading="lazy"><br>
+页面打开的时候他就会默认选中性别男：<br>
+<img src="https://lisizero.github.io//post-images/1633325666563.png" alt="" loading="lazy"><br>
+maxlength 属性，我们可以规定输入字段中的字符的最大长度。<br>
+例如：我们规定他的字符最大长度为6位数<br>
+<img src="https://lisizero.github.io//post-images/1633326128977.png" alt="" loading="lazy"><br>
+超过6位就输入不了了<br>
+<img src="https://lisizero.github.io//post-images/1633326303280.png" alt="" loading="lazy"><br>
+1.checked属性主要针对于单选按钮和复选框，主要作用一打开页面，就要可以默认选中某个表单元素。<br>
+2.maxlength是用户可以在表单元素输入的最大字符数，一般较少使用。</p>
 
               </div>
               <div class="toc-container">
@@ -106,9 +168,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://lisizero.github.io/post/111/">
+            <a href="https://lisizero.github.io/post/input-zhi-name-he-value-shu-xing/">
               <h3 class="post-title">
-                表单域
+                input之name和value属性
               </h3>
             </a>
           </div>
