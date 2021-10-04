@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T18:09:41.968Z</updated>
+    <updated>2021-10-04T18:28:53.609Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[段落标签和换行标签]]></title>
+        <id>https://lisizero.github.io/post/duan-luo-biao-qian-he-huan-xing-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/duan-luo-biao-qian-he-huan-xing-biao-qian/">
+        </link>
+        <updated>2021-10-04T18:10:35.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633371476457.png" alt="" loading="lazy"><br>
+标签语义：可以把HTML 文档分割为诺干段落。<br>
+<img src="https://lisizero.github.io//post-images/1633371450388.png" alt="" loading="lazy"><br>
+特点：</p>
+<ol>
+<li>文本在一个段落中会根据浏览器窗口的大小自动换行。</li>
+<li>段落和段落之间保有空隙。</li>
+</ol>
+<p>在 HTML 中 ，一个段落中的文字会从左到右依次排列，直到浏览器窗口的右端，然后才自动换行<br>
+。如何希望某段文本强制换行显示， 就需要使用换行标签 <img src="https://lisizero.github.io//post-images/1633371820906.png" alt="" loading="lazy"></p>
+<p>标签语义：强制换行。<br>
+特点：<br>
+<img src="https://lisizero.github.io//post-images/1633372069506.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[标题标签]]></title>
         <id>https://lisizero.github.io/post/biao-ti-biao-qian/</id>
@@ -143,40 +164,6 @@ HTML页面也称为 HTML 文档。<br>
         <updated>2021-10-04T09:20:58.000Z</updated>
         <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633339955568.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633340220611.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[input之type属性普通按钮和文件域]]></title>
-        <id>https://lisizero.github.io/post/input-zhi-type-shu-xing-pu-tong-an-niu-he-wen-jian-yu/</id>
-        <link href="https://lisizero.github.io/post/input-zhi-type-shu-xing-pu-tong-an-niu-he-wen-jian-yu/">
-        </link>
-        <updated>2021-10-04T06:24:59.000Z</updated>
-        <content type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th>属性值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>button</td>
-<td>定义可点击按钮（多数情况下，用于通过JavaScript 启动脚本）。</td>
-</tr>
-<tr>
-<td>file</td>
-<td>定义输入文字段和“浏览”按钮，供上传文件</td>
-</tr>
-</tbody>
-</table>
-<p>button属性：<br>
-普通按钮<br>
-<img src="https://lisizero.github.io//post-images/1633329173550.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633329183172.png" alt="" loading="lazy"><br>
-file属性：<br>
-文件域上传文件使用的<br>
-<img src="https://lisizero.github.io//post-images/1633329340936.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633329347634.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
