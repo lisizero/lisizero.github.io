@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T03:02:02.121Z</updated>
+    <updated>2021-10-04T03:16:20.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[表单控件（表单元素）]]></title>
+        <id>https://lisizero.github.io/post/biao-dan-kong-jian-biao-dan-yuan-su/</id>
+        <link href="https://lisizero.github.io/post/biao-dan-kong-jian-biao-dan-yuan-su/">
+        </link>
+        <updated>2021-10-04T03:02:11.000Z</updated>
+        <content type="html"><![CDATA[<p>在表单域中可以定义各种表单元素，这些表单元素就是允许用户在表单中输入或者选择的内容控件。<br>
+接下来我们讲解：</p>
+<ol>
+<li>input 输入表单元素</li>
+<li>select 下拉表单元素</li>
+<li>textarea 文本域元素<br>
+<img src="https://lisizero.github.io//post-images/1633317371445.png" alt="" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于本站]]></title>
         <id>https://lisizero.github.io/post/guan-yu-ben-zhan/</id>
