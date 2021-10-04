@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T06:02:24.308Z</updated>
+    <updated>2021-10-04T06:23:28.113Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[11]]></title>
+        <id>https://lisizero.github.io/post/11/</id>
+        <link href="https://lisizero.github.io/post/11/">
+        </link>
+        <updated>2021-10-04T06:04:13.000Z</updated>
+        <content type="html"><![CDATA[<p>11<img src="https://lisizero.github.io//post-images/1633327491419.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[input之type属性提交和重置按钮]]></title>
+        <id>https://lisizero.github.io/post/input-zhi-type-shu-xing-ti-jiao-he-chong-zhi-an-niu/</id>
+        <link href="https://lisizero.github.io/post/input-zhi-type-shu-xing-ti-jiao-he-chong-zhi-an-niu/">
+        </link>
+        <updated>2021-10-04T06:03:13.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>submit</td>
+<td>定义提交按钮，提交按钮会把表单数据发送到服务器。</td>
+</tr>
+<tr>
+<td>reset</td>
+<td>定义重置按钮，重置按钮会清楚表单中的所有数据。</td>
+</tr>
+</tbody>
+</table>
+<p>sumit属性：<br>
+点击了提交按钮，可以把 表单域 form 里面的值 提交给后台服务器<br>
+<img src="https://lisizero.github.io//post-images/1633328168690.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633328203137.png" alt="" loading="lazy"><br>
+reset属性：<br>
+重置按钮可以还原表单元素初始的默认状态<br>
+<img src="https://lisizero.github.io//post-images/1633328467845.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633328498299.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[input之checked和maxlength属性]]></title>
         <id>https://lisizero.github.io/post/input-zhi-checked-he-maxlength-shu-xing/</id>
@@ -332,51 +375,6 @@ name 是表单元素名字 这里性别单选按钮必须有相同的名字name 
 <p>1.学会什么时候用无序列表，什么时候用自定义列表。<br>
 2.无序列表和自定义列表代码怎么写？<br>
 3.列表布局在学习完CSS后再来完成。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.3自定义标签]]></title>
-        <id>https://lisizero.github.io/post/23-zi-ding-yi-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/23-zi-ding-yi-biao-qian/">
-        </link>
-        <updated>2021-10-03T13:23:56.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633268103708.png" alt="" loading="lazy"><br>
-1<br>
-<img src="https://lisizero.github.io//post-images/1633268021136.png" alt="" loading="lazy"><br>
-👇<br>
-<img src="https://lisizero.github.io//post-images/1633268049978.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://lisizero.github.io/post/hello-gridea/</id>
-        <link href="https://lisizero.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
