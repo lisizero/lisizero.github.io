@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T06:47:19.250Z</updated>
+    <updated>2021-10-04T10:44:05.615Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[<textarea> 文本域标签]]></title>
+        <id>https://lisizero.github.io/post/lesstextareagreater-wen-ben-yu-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/lesstextareagreater-wen-ben-yu-biao-qian/">
+        </link>
+        <updated>2021-10-04T09:53:04.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633341433427.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633341675870.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633342026498.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633342329573.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633342395257.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[select下拉表单]]></title>
+        <id>https://lisizero.github.io/post/select-xia-la-biao-dan/</id>
+        <link href="https://lisizero.github.io/post/select-xia-la-biao-dan/">
+        </link>
+        <updated>2021-10-04T09:39:25.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633340550289.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633340645570.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633340932529.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633340969231.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633341058279.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[<label>标签]]></title>
+        <id>https://lisizero.github.io/post/lesslabelgreaterbiao-qian/</id>
+        <link href="https://lisizero.github.io/post/lesslabelgreaterbiao-qian/">
+        </link>
+        <updated>2021-10-04T09:20:58.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633339955568.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633340220611.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[input之type属性普通按钮和文件域]]></title>
         <id>https://lisizero.github.io/post/input-zhi-type-shu-xing-pu-tong-an-niu-he-wen-jian-yu/</id>
@@ -330,76 +366,6 @@ name 是表单元素名字 这里性别单选按钮必须有相同的名字name 
         <content type="html"><![CDATA[<p>分享一些自己学到的东西。<br>
 黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+移动端前端视频教程<br>
 传送门：https://www.bilibili.com/video/BV14J4114768?p=45</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表单域]]></title>
-        <id>https://lisizero.github.io/post/111/</id>
-        <link href="https://lisizero.github.io/post/111/">
-        </link>
-        <updated>2021-10-03T17:53:44.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633313631939.png" alt="" loading="lazy"></figure>
-<p>常用属性：</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>属性值</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>action</td>
-<td>url地址</td>
-<td>用于指定接收并处理表单数据的服务器程序的url地址。</td>
-</tr>
-<tr>
-<td>method</td>
-<td>get/post</td>
-<td>用于设置表单数据的提交方式，其取值为get或post。</td>
-</tr>
-<tr>
-<td>name</td>
-<td>名称</td>
-<td>用于指定表单的名称，以区分同一个页面中的多个表单域。</td>
-</tr>
-</tbody>
-</table>
-<p>代码展示：<br>
-<img src="https://lisizero.github.io//post-images/1633315504602.png" alt="" loading="lazy"><br>
-我们暂时不用表单域提交数据，只需要写上 form 标签即可。<br>
-这里只需要记住两点：</p>
-<ol>
-<li>在我们写表单元素之前，应该有个表单域把他们进行包含。</li>
-<li>表单域是 form 标签</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表单的使用场景以及分类]]></title>
-        <id>https://lisizero.github.io/post/biao-dan-de-shi-yong-chang-jing-yi-ji-fen-lei/</id>
-        <link href="https://lisizero.github.io/post/biao-dan-de-shi-yong-chang-jing-yi-ji-fen-lei/">
-        </link>
-        <updated>2021-10-03T14:34:44.000Z</updated>
-        <content type="html"><![CDATA[<p>1 为什么需要表单<br>
-使用表单目的是为了收集用户信息。<br>
-在我们网页中，我们也需要跟用户进行交互，此时就需要表单。<br>
-2 表单的组成<br>
-在HTML中，一个完整的表单通常有<u><strong>表单域</strong></u>，<u><strong>表单控件</strong></u>（也称为表单元素）和<u><strong>提示信息</strong></u>3个部分组成的。<img src="https://lisizero.github.io//post-images/1633271773453.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[列表总结]]></title>
-        <id>https://lisizero.github.io/post/lie-biao-zong-jie/</id>
-        <link href="https://lisizero.github.io/post/lie-biao-zong-jie/">
-        </link>
-        <updated>2021-10-03T14:07:53.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633270328142.png" alt="" loading="lazy"></figure>
-<p>注意：</p>
-<p>1.学会什么时候用无序列表，什么时候用自定义列表。<br>
-2.无序列表和自定义列表代码怎么写？<br>
-3.列表布局在学习完CSS后再来完成。</p>
 ]]></content>
     </entry>
 </feed>
