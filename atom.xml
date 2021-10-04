@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T01:56:54.138Z</updated>
+    <updated>2021-10-04T01:58:07.742Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[111]]></title>
+        <id>https://lisizero.github.io/post/111/</id>
+        <link href="https://lisizero.github.io/post/111/">
+        </link>
+        <updated>2021-10-03T17:53:44.000Z</updated>
+        <content type="html"><![CDATA[<p>11</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[表单的使用场景以及分类]]></title>
+        <id>https://lisizero.github.io/post/biao-dan-de-shi-yong-chang-jing-yi-ji-fen-lei/</id>
+        <link href="https://lisizero.github.io/post/biao-dan-de-shi-yong-chang-jing-yi-ji-fen-lei/">
+        </link>
+        <updated>2021-10-03T14:34:44.000Z</updated>
+        <content type="html"><![CDATA[<p>1 为什么需要表单<br>
+使用表单目的是为了收集用户信息。<br>
+在我们网页中，我们也需要跟用户进行交互，此时就需要表单。<br>
+2 表单的组成<br>
+在HTML中，一个完整的表单通常有<u><strong>表单域</strong></u>，<u><strong>表单控件</strong></u>（也称为表单元素）和<u><strong>提示信息</strong></u>3个部分组成的。<img src="https://lisizero.github.io//post-images/1633271773453.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[列表总结]]></title>
+        <id>https://lisizero.github.io/post/lie-biao-zong-jie/</id>
+        <link href="https://lisizero.github.io/post/lie-biao-zong-jie/">
+        </link>
+        <updated>2021-10-03T14:07:53.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633270328142.png" alt="" loading="lazy"></figure>
+<p>注意：</p>
+<p>1.学会什么时候用无序列表，什么时候用自定义列表。<br>
+2.无序列表和自定义列表代码怎么写？<br>
+3.列表布局在学习完CSS后再来完成。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2.3自定义标签]]></title>
+        <id>https://lisizero.github.io/post/23-zi-ding-yi-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/23-zi-ding-yi-biao-qian/">
+        </link>
+        <updated>2021-10-03T13:23:56.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633268103708.png" alt="" loading="lazy"><br>
+1<br>
+<img src="https://lisizero.github.io//post-images/1633268021136.png" alt="" loading="lazy"><br>
+👇<br>
+<img src="https://lisizero.github.io//post-images/1633268049978.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lisizero.github.io/post/hello-gridea/</id>
