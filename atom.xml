@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T15:36:33.469Z</updated>
+    <updated>2021-10-04T16:50:33.022Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[综合案例-注册页面]]></title>
+        <id>https://lisizero.github.io/post/zong-he-an-li-zhu-ce-ye-mian/</id>
+        <link href="https://lisizero.github.io/post/zong-he-an-li-zhu-ce-ye-mian/">
+        </link>
+        <updated>2021-10-04T16:28:20.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633366105229.png" alt="" loading="lazy"><br>
+第一行<br>
+<img src="https://lisizero.github.io//post-images/1633365446707.png" alt="" loading="lazy"><br>
+第二行<br>
+<img src="https://lisizero.github.io//post-images/1633365502324.png" alt="" loading="lazy"><br>
+第三行<br>
+<img src="https://lisizero.github.io//post-images/1633365607763.png" alt="" loading="lazy"><br>
+第四行<br>
+<img src="https://lisizero.github.io//post-images/1633365642607.png" alt="" loading="lazy"><br>
+第五行<br>
+<img src="https://lisizero.github.io//post-images/1633365685947.png" alt="" loading="lazy"><br>
+第六行<br>
+<img src="https://lisizero.github.io//post-images/1633365743996.png" alt="" loading="lazy"><br>
+第七行<br>
+<img src="https://lisizero.github.io//post-images/1633365788455.png" alt="" loading="lazy"><br>
+第八行<br>
+<img src="https://lisizero.github.io//post-images/1633365833099.png" alt="" loading="lazy"><br>
+第九行<br>
+<img src="https://lisizero.github.io//post-images/1633365873223.png" alt="" loading="lazy"><br>
+第十行<br>
+<img src="https://lisizero.github.io//post-images/1633365905517.png" alt="" loading="lazy"><br>
+第十一行<br>
+<img src="https://lisizero.github.io//post-images/1633365950077.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[<textarea> 文本域标签]]></title>
         <id>https://lisizero.github.io/post/lesstextareagreater-wen-ben-yu-biao-qian/</id>
@@ -355,17 +386,6 @@ name 是表单元素名字 这里性别单选按钮必须有相同的名字name 
 <img src="https://lisizero.github.io//post-images/1633319464062.png" alt="" loading="lazy"><br>
 效果：<br>
 <img src="https://lisizero.github.io//post-images/1633319481236.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于本站]]></title>
-        <id>https://lisizero.github.io/post/guan-yu-ben-zhan/</id>
-        <link href="https://lisizero.github.io/post/guan-yu-ben-zhan/">
-        </link>
-        <updated>2021-10-04T02:45:56.000Z</updated>
-        <content type="html"><![CDATA[<p>分享一些自己学到的东西。<br>
-黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+移动端前端视频教程<br>
-传送门：https://www.bilibili.com/video/BV14J4114768?p=45</p>
 ]]></content>
     </entry>
 </feed>
