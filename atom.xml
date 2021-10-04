@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-04T02:16:22.808Z</updated>
+    <updated>2021-10-04T02:29:19.547Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -17,6 +17,33 @@
         </link>
         <updated>2021-10-03T17:53:44.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633313631939.png" alt="" loading="lazy"></figure>
+<p>常用属性：</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>属性值</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>action</td>
+<td>url地址</td>
+<td>用于指定接收并处理表单数据的服务器程序的url地址。</td>
+</tr>
+<tr>
+<td>method</td>
+<td>get/post</td>
+<td>用于设置表单数据的提交方式，其取值为get或post。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>名称</td>
+<td>用于指定表单的名称，以区分同一个页面中的多个表单域。</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     <entry>
