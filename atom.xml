@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T11:06:12.010Z</updated>
+    <updated>2021-10-05T12:13:12.191Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
+    <subtitle>最短的捷径就是绕远路</subtitle>
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[表格标签]]></title>
+        <id>https://lisizero.github.io/post/biao-ge-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/biao-ge-biao-qian/">
+        </link>
+        <updated>2021-10-05T12:03:13.000Z</updated>
+        <content type="html"><![CDATA[<p>表格的主要作用<br>
+表格主要用于显示，展示数据，因为它可以让数据显示的非常的规整，可读性非常好。特别是后台展示数据<br>
+的时候，能够狩猎运用表格就显得很重要。一个清爽简约的表格能够把繁杂的数据表现得很有条理。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[锚点链接]]></title>
         <id>https://lisizero.github.io/post/mao-dian-lian-jie/</id>
@@ -190,19 +202,6 @@ border:<br>
         </link>
         <updated>2021-10-04T17:52:05.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633369985744.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML基本结构标签]]></title>
-        <id>https://lisizero.github.io/post/html-ji-ben-jie-gou-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/html-ji-ben-jie-gou-biao-qian/">
-        </link>
-        <updated>2021-10-04T17:38:41.000Z</updated>
-        <content type="html"><![CDATA[<p>第一个 HTML 网页<br>
-每个网页都会有一个基本的结构标签 （也称为骨架标签） ， 页面内容也是这些基本标签上书写。<br>
-HTML页面也称为 HTML 文档。<br>
-<img src="https://lisizero.github.io//post-images/1633369450294.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633369657545.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
