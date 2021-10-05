@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T15:47:00.746Z</updated>
+    <updated>2021-10-05T17:26:56.674Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,133 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[有序列表（理解）]]></title>
+        <id>https://lisizero.github.io/post/you-xu-lie-biao-li-jie/</id>
+        <link href="https://lisizero.github.io/post/you-xu-lie-biao-li-jie/">
+        </link>
+        <updated>2021-10-05T17:10:58.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633454306149.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633454444103.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633454500279.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无序列表 （重点）]]></title>
+        <id>https://lisizero.github.io/post/wu-xu-lie-biao/</id>
+        <link href="https://lisizero.github.io/post/wu-xu-lie-biao/">
+        </link>
+        <updated>2021-10-05T16:53:33.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633452847231.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://lisizero.github.io//post-images/1633453375226.png" alt="" loading="lazy"></figure>
+<ol start="4">
+<li>无序列表会带有自己的样式属性 ， 但在实际使用时 ， 我们会使用 CSS 来设置。</li>
+</ol>
+<p><img src="https://lisizero.github.io//post-images/1633453623971.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633453662232.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[表格总结]]></title>
+        <id>https://lisizero.github.io/post/biao-ge-zong-jie/</id>
+        <link href="https://lisizero.github.io/post/biao-ge-zong-jie/">
+        </link>
+        <updated>2021-10-05T16:37:52.000Z</updated>
+        <content type="html"><![CDATA[<p>表格学习整体可以分为三大部分 ：</p>
+<ol>
+<li>表格的相关标签</li>
+<li>表格的相关属性</li>
+<li>合并单元格</li>
+</ol>
+<p>一，表格的相关标签：<br>
+我们学习了</p>
+<ol>
+<li>table 标签</li>
+<li>tr 行 标签</li>
+<li>td 单元格标签</li>
+<li>th 表头单元格 标签</li>
+<li>thead 表格头部区域标签</li>
+<li>tbody 表格主体区域标签</li>
+</ol>
+<p>二，表格的相关属性</p>
+<table>
+<thead>
+<tr>
+<th><h4>属性名<h4></th>
+<th><h4>属性值<h4></th>
+<th><h4>描述<h4></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>align</td>
+<td>left , center , right</td>
+<td>规定表格相对周围的对齐方式。</td>
+</tr>
+<tr>
+<td>boder</td>
+<td>1 或 &quot; &quot;</td>
+<td>规定表格单元是否拥有边框，默认为 &quot; &quot;,表示没有边框</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>像素值</td>
+<td>规定单元边沿与其内容之间的空白， 默认1像素。</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>像素值</td>
+<td>规定单元格之间的空白，默认2像素。</td>
+</tr>
+<tr>
+<td>width</td>
+<td>像素值或百分比</td>
+<td>规定表格的宽度。</td>
+</tr>
+</tbody>
+</table>
+<p>三，合并单元格</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[合并单元格]]></title>
+        <id>https://lisizero.github.io/post/he-bing-dan-yuan-ge/</id>
+        <link href="https://lisizero.github.io/post/he-bing-dan-yuan-ge/">
+        </link>
+        <updated>2021-10-05T15:54:40.000Z</updated>
+        <content type="html"><![CDATA[<p>特殊情况下， 可以把多个单元格合并为一个单元格。</p>
+<ol>
+<li>合并单元格方式</li>
+<li>目标单元格</li>
+<li>合并单元格的步骤</li>
+</ol>
+<h2>合并单元格方式 ：<h2>
+<ul>
+    <li>跨行合并 ：rowspan="合并单元格的个数" </li>
+    <li>跨列合并 ：colspan="合并单元格的个数" </li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633449629019.png" alt="" loading="lazy"></figure>
+<h2>目标单元格 ：（写合并代码） <h2>
+<ul>
+    <li>跨行 ：最上侧单元格为目标单元格，写合并代码 </li>
+    <li>跨列 ：最左侧单元格为目标单元格，写合并代码 </li>
+</ul>
+<p>合并单元格三部曲：<br>
+<img src="https://lisizero.github.io//post-images/1633450797467.png" alt="" loading="lazy"></p>
+<p>创建单元格：<br>
+<img src="https://lisizero.github.io//post-images/1633450511391.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633450533513.png" alt="" loading="lazy"></p>
+<p>跨列合并 colspan :</p>
+<p><img src="https://lisizero.github.io//post-images/1633450930400.png" alt="" loading="lazy"><br>
+选择合并数量“2”，删除多余单元格。<br>
+<img src="https://lisizero.github.io//post-images/1633451062434.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633451097778.png" alt="" loading="lazy"></p>
+<p>跨行合并rowspan :<br>
+选择合并数量 “2” ，删除多余单元格。</p>
+<p><img src="https://lisizero.github.io//post-images/1633451241747.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633451304113.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[表格结构标签]]></title>
         <id>https://lisizero.github.io/post/biao-ge-jie-gou-biao-qian/</id>
@@ -135,121 +262,6 @@ width:<br>
         <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633418682564.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633418785901.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633418812260.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[超链接标签]]></title>
-        <id>https://lisizero.github.io/post/chao-lian-jie-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/chao-lian-jie-biao-qian/">
-        </link>
-        <updated>2021-10-05T07:03:19.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633417693904.png" alt="" loading="lazy"></figure>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>href</td>
-<td>用于指定链接目标的url地址，（必须属性） 当为标签应用href属性时，它就具有了超链接的功能</td>
-</tr>
-<tr>
-<td>target</td>
-<td>用于指定链接页面的打开方式， 其中 _self 为默认值， _blank为在新窗口中打开方式</td>
-</tr>
-</tbody>
-</table>
-<p><img src="https://lisizero.github.io//post-images/1633418215294.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633418238002.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[图像标签]]></title>
-        <id>https://lisizero.github.io/post/tu-xiang-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/tu-xiang-biao-qian/">
-        </link>
-        <updated>2021-10-05T06:14:08.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633414663917.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633415048751.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633415463368.png" alt="" loading="lazy"></p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>属性值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>src</td>
-<td>图片路径</td>
-<td>必须属性</td>
-</tr>
-<tr>
-<td>alt</td>
-<td>文本</td>
-<td>替换文本。图像不能显示的文字</td>
-</tr>
-<tr>
-<td>title</td>
-<td>文本</td>
-<td>提示文本。鼠标放到图像上，显示的文字</td>
-</tr>
-<tr>
-<td>width</td>
-<td>像素</td>
-<td>设置图像的宽度</td>
-</tr>
-<tr>
-<td>height</td>
-<td>像素</td>
-<td>设置图像的高度</td>
-</tr>
-<tr>
-<td>border</td>
-<td>像素</td>
-<td>设置图像的边框粗细</td>
-</tr>
-</tbody>
-</table>
-<p>alt :<br>
-<img src="https://lisizero.github.io//post-images/1633416006979.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633415978811.png" alt="" loading="lazy"><br>
-title：<br>
-<img src="https://lisizero.github.io//post-images/1633416100547.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633416239138.jpg" alt="" loading="lazy"><br>
-width:<br>
-<img src="https://lisizero.github.io//post-images/1633416522579.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633416635690.png" alt="" loading="lazy"><br>
-原图对比：<br>
-<img src="https://lisizero.github.io//post-images/1633416666264.png" alt="" loading="lazy"><br>
-border:<br>
-<img src="https://lisizero.github.io//post-images/1633416874170.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633416900444.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[<div> 和 <span> 标签]]></title>
-        <id>https://lisizero.github.io/post/lessdivgreater-he-lessspangreater-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/lessdivgreater-he-lessspangreater-biao-qian/">
-        </link>
-        <updated>2021-10-05T06:08:38.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633414414089.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633414323229.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633414326631.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文本格式化标签]]></title>
-        <id>https://lisizero.github.io/post/wen-ben-ge-shi-hua-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/wen-ben-ge-shi-hua-biao-qian/">
-        </link>
-        <updated>2021-10-05T06:01:33.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633413835761.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
