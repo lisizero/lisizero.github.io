@@ -2,14 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T06:00:03.546Z</updated>
+    <updated>2021-10-05T06:17:02.078Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
-    <subtitle>漆黑意志</subtitle>
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[图像标签]]></title>
+        <id>https://lisizero.github.io/post/tu-xiang-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/tu-xiang-biao-qian/">
+        </link>
+        <updated>2021-10-05T06:14:08.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633414617456.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[<div> 和 <span> 标签]]></title>
+        <id>https://lisizero.github.io/post/lessdivgreater-he-lessspangreater-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/lessdivgreater-he-lessspangreater-biao-qian/">
+        </link>
+        <updated>2021-10-05T06:08:38.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633414414089.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633414323229.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633414326631.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文本格式化标签]]></title>
+        <id>https://lisizero.github.io/post/wen-ben-ge-shi-hua-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/wen-ben-ge-shi-hua-biao-qian/">
+        </link>
+        <updated>2021-10-05T06:01:33.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633413835761.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[体育新闻案例]]></title>
         <id>https://lisizero.github.io/post/ti-yu-xin-wen-an-li/</id>
@@ -108,62 +136,5 @@ HTML页面也称为 HTML 文档。<br>
     <li>能够写出图片标签并说出 alt 和 title 的区别 </li>
     <li>能够说出相对路径的三种形式 </li>
 </ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[综合案例-注册页面]]></title>
-        <id>https://lisizero.github.io/post/zong-he-an-li-zhu-ce-ye-mian/</id>
-        <link href="https://lisizero.github.io/post/zong-he-an-li-zhu-ce-ye-mian/">
-        </link>
-        <updated>2021-10-04T16:28:20.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633366105229.png" alt="" loading="lazy"><br>
-第一行<br>
-<img src="https://lisizero.github.io//post-images/1633365446707.png" alt="" loading="lazy"><br>
-第二行<br>
-<img src="https://lisizero.github.io//post-images/1633365502324.png" alt="" loading="lazy"><br>
-第三行<br>
-<img src="https://lisizero.github.io//post-images/1633365607763.png" alt="" loading="lazy"><br>
-第四行<br>
-<img src="https://lisizero.github.io//post-images/1633365642607.png" alt="" loading="lazy"><br>
-第五行<br>
-<img src="https://lisizero.github.io//post-images/1633365685947.png" alt="" loading="lazy"><br>
-第六行<br>
-<img src="https://lisizero.github.io//post-images/1633365743996.png" alt="" loading="lazy"><br>
-第七行<br>
-<img src="https://lisizero.github.io//post-images/1633365788455.png" alt="" loading="lazy"><br>
-第八行<br>
-<img src="https://lisizero.github.io//post-images/1633365833099.png" alt="" loading="lazy"><br>
-第九行<br>
-<img src="https://lisizero.github.io//post-images/1633365873223.png" alt="" loading="lazy"><br>
-第十行<br>
-<img src="https://lisizero.github.io//post-images/1633365905517.png" alt="" loading="lazy"><br>
-第十一行<br>
-<img src="https://lisizero.github.io//post-images/1633365950077.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[<textarea> 文本域标签]]></title>
-        <id>https://lisizero.github.io/post/lesstextareagreater-wen-ben-yu-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/lesstextareagreater-wen-ben-yu-biao-qian/">
-        </link>
-        <updated>2021-10-04T09:53:04.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633341433427.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633341675870.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633342026498.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633342329573.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633342395257.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[select下拉表单]]></title>
-        <id>https://lisizero.github.io/post/select-xia-la-biao-dan/</id>
-        <link href="https://lisizero.github.io/post/select-xia-la-biao-dan/">
-        </link>
-        <updated>2021-10-04T09:39:25.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633340550289.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633340645570.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633340932529.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633340969231.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633341058279.png" alt="" loading="lazy"></p>
-]]></content>
     </entry>
 </feed>
