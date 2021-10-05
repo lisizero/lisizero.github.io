@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T06:17:02.078Z</updated>
+    <updated>2021-10-05T07:26:55.865Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,12 +10,109 @@
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
+        <title type="html"><![CDATA[锚点链接]]></title>
+        <id>https://lisizero.github.io/post/mao-dian-lian-jie/</id>
+        <link href="https://lisizero.github.io/post/mao-dian-lian-jie/">
+        </link>
+        <updated>2021-10-05T07:24:25.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633418682564.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633418785901.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633418812260.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[超链接标签]]></title>
+        <id>https://lisizero.github.io/post/chao-lian-jie-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/chao-lian-jie-biao-qian/">
+        </link>
+        <updated>2021-10-05T07:03:19.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633417693904.png" alt="" loading="lazy"></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>href</td>
+<td>用于指定链接目标的url地址，（必须属性） 当为标签应用href属性时，它就具有了超链接的功能</td>
+</tr>
+<tr>
+<td>target</td>
+<td>用于指定链接页面的打开方式， 其中 _self 为默认值， _blank为在新窗口中打开方式</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://lisizero.github.io//post-images/1633418215294.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633418238002.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[图像标签]]></title>
         <id>https://lisizero.github.io/post/tu-xiang-biao-qian/</id>
         <link href="https://lisizero.github.io/post/tu-xiang-biao-qian/">
         </link>
         <updated>2021-10-05T06:14:08.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633414617456.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633414663917.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633415048751.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633415463368.png" alt="" loading="lazy"></p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>src</td>
+<td>图片路径</td>
+<td>必须属性</td>
+</tr>
+<tr>
+<td>alt</td>
+<td>文本</td>
+<td>替换文本。图像不能显示的文字</td>
+</tr>
+<tr>
+<td>title</td>
+<td>文本</td>
+<td>提示文本。鼠标放到图像上，显示的文字</td>
+</tr>
+<tr>
+<td>width</td>
+<td>像素</td>
+<td>设置图像的宽度</td>
+</tr>
+<tr>
+<td>height</td>
+<td>像素</td>
+<td>设置图像的高度</td>
+</tr>
+<tr>
+<td>border</td>
+<td>像素</td>
+<td>设置图像的边框粗细</td>
+</tr>
+</tbody>
+</table>
+<p>alt :<br>
+<img src="https://lisizero.github.io//post-images/1633416006979.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633415978811.png" alt="" loading="lazy"><br>
+title：<br>
+<img src="https://lisizero.github.io//post-images/1633416100547.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633416239138.jpg" alt="" loading="lazy"><br>
+width:<br>
+<img src="https://lisizero.github.io//post-images/1633416522579.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633416635690.png" alt="" loading="lazy"><br>
+原图对比：<br>
+<img src="https://lisizero.github.io//post-images/1633416666264.png" alt="" loading="lazy"><br>
+border:<br>
+<img src="https://lisizero.github.io//post-images/1633416874170.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633416900444.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
@@ -107,34 +204,5 @@ HTML页面也称为 HTML 文档。<br>
 <img src="https://lisizero.github.io//post-images/1633369450294.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633369657545.png" alt="" loading="lazy"></p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML语法规范]]></title>
-        <id>https://lisizero.github.io/post/html-yu-fa-gui-fan/</id>
-        <link href="https://lisizero.github.io/post/html-yu-fa-gui-fan/">
-        </link>
-        <updated>2021-10-04T17:23:57.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633368765190.png" alt="" loading="lazy"><br>
-标签关系<br>
-双标签关系可以分为两类：包含关系和并列关系。<br>
-包含关系:<br>
-<img src="https://lisizero.github.io//post-images/1633368944527.png" alt="" loading="lazy"><br>
-并列关系：<br>
-<img src="https://lisizero.github.io//post-images/1633369047859.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML标签导读]]></title>
-        <id>https://lisizero.github.io/post/html-biao-qian-dao-du/</id>
-        <link href="https://lisizero.github.io/post/html-biao-qian-dao-du/">
-        </link>
-        <updated>2021-10-04T17:16:41.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-    <li>能够说出标签的书写注意规范</li>
-    <li>能够写出 HTML 骨架标签 </li>
-    <li>能够写出超链接标签</li>
-    <li>能够写出图片标签并说出 alt 和 title 的区别 </li>
-    <li>能够说出相对路径的三种形式 </li>
-</ul>]]></content>
     </entry>
 </feed>
