@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T12:13:12.191Z</updated>
+    <updated>2021-10-05T13:59:46.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -11,14 +11,82 @@
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
+        <title type="html"><![CDATA[表格相关属性]]></title>
+        <id>https://lisizero.github.io/post/biao-ge-xiang-guan-shu-xing/</id>
+        <link href="https://lisizero.github.io/post/biao-ge-xiang-guan-shu-xing/">
+        </link>
+        <updated>2021-10-05T13:34:20.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th><h4>属性名<h4></th>
+<th><h4>属性值<h4></th>
+<th><h4>描述<h4></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>align</td>
+<td>left , center , right</td>
+<td>规定表格相对周围的对齐方式。</td>
+</tr>
+<tr>
+<td>boder</td>
+<td>1 或 &quot; &quot;</td>
+<td>规定表格单元是否拥有边框，默认为 &quot; &quot;,表示没有边框</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>像素值</td>
+<td>规定单元边沿与其内容之间的空白， 默认1像素。</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>像素值</td>
+<td>规定单元格之间的空白，默认2像素。</td>
+</tr>
+<tr>
+<td>width</td>
+<td>像素值或百分比</td>
+<td>规定表格的宽度。</td>
+</tr>
+</tbody>
+</table>
+<p>align:<br>
+<img src="https://lisizero.github.io//post-images/1633441483912.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633441733591.png" alt="" loading="lazy"><br>
+boder:<br>
+<img src="https://lisizero.github.io//post-images/1633441789832.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633441806247.png" alt="" loading="lazy"><br>
+cellpadding:<br>
+<img src="https://lisizero.github.io//post-images/1633441975093.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633442003221.png" alt="" loading="lazy"><br>
+cellspacing:<br>
+<img src="https://lisizero.github.io//post-images/1633442129241.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633442158208.png" alt="" loading="lazy"><br>
+width:<br>
+<img src="https://lisizero.github.io//post-images/1633442241987.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633442269001.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[表头单元格标签]]></title>
+        <id>https://lisizero.github.io/post/biao-tou-dan-yuan-ge-biao-qian/</id>
+        <link href="https://lisizero.github.io/post/biao-tou-dan-yuan-ge-biao-qian/">
+        </link>
+        <updated>2021-10-05T12:34:26.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633440105436.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633440422501.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633440441718.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[表格标签]]></title>
         <id>https://lisizero.github.io/post/biao-ge-biao-qian/</id>
         <link href="https://lisizero.github.io/post/biao-ge-biao-qian/">
         </link>
         <updated>2021-10-05T12:03:13.000Z</updated>
-        <content type="html"><![CDATA[<p>表格的主要作用<br>
-表格主要用于显示，展示数据，因为它可以让数据显示的非常的规整，可读性非常好。特别是后台展示数据<br>
-的时候，能够狩猎运用表格就显得很重要。一个清爽简约的表格能够把繁杂的数据表现得很有条理。</p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633440088371.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
@@ -176,32 +244,6 @@ border:<br>
 <p>标签语义：强制换行。<br>
 特点：<br>
 <img src="https://lisizero.github.io//post-images/1633372069506.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[标题标签]]></title>
-        <id>https://lisizero.github.io/post/biao-ti-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/biao-ti-biao-qian/">
-        </link>
-        <updated>2021-10-04T17:54:50.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633370607154.png" alt="" loading="lazy"><br>
-单词 head 的缩写，意为头部，标题。<br>
-标签语义：作为标题使用，并且依据重要性递减。（一级标题比二级标题更重要，二级标题比三级标题更重要以此类推）<br>
-特点：</p>
-<ol>
-<li>加了标题的文字会变的加粗，字号也会依次变大。</li>
-<li>一个标题独占一行。<br>
-<img src="https://lisizero.github.io//post-images/1633370708000.png" alt="" loading="lazy"></li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[标签语义]]></title>
-        <id>https://lisizero.github.io/post/biao-qian-yu-yi/</id>
-        <link href="https://lisizero.github.io/post/biao-qian-yu-yi/">
-        </link>
-        <updated>2021-10-04T17:52:05.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633369985744.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
