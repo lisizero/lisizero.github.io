@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-05T13:59:46.660Z</updated>
+    <updated>2021-10-05T14:23:11.015Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[小说排行榜案例]]></title>
+        <id>https://lisizero.github.io/post/xiao-shuo-pai-xing-bang-an-li/</id>
+        <link href="https://lisizero.github.io/post/xiao-shuo-pai-xing-bang-an-li/">
+        </link>
+        <updated>2021-10-05T14:03:43.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633443093191.png" alt="" loading="lazy"><br>
+第一行：<br>
+<img src="https://lisizero.github.io//post-images/1633443138686.png" alt="" loading="lazy"><br>
+第二行：<br>
+<img src="https://lisizero.github.io//post-images/1633443216837.png" alt="" loading="lazy"><br>
+第三行：<br>
+<img src="https://lisizero.github.io//post-images/1633443290673.png" alt="" loading="lazy"><br>
+第四行：<br>
+<img src="https://lisizero.github.io//post-images/1633443322220.png" alt="" loading="lazy"><br>
+第五行：<br>
+<img src="https://lisizero.github.io//post-images/1633443360357.png" alt="" loading="lazy"><br>
+第六行：<br>
+<img src="https://lisizero.github.io//post-images/1633443405632.png" alt="" loading="lazy"><br>
+第七行：<br>
+<img src="https://lisizero.github.io//post-images/1633443462137.png" alt="" loading="lazy"><br>
+第八行：<br>
+<img src="https://lisizero.github.io//post-images/1633443498009.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[表格相关属性]]></title>
         <id>https://lisizero.github.io/post/biao-ge-xiang-guan-shu-xing/</id>
@@ -223,27 +248,6 @@ border:<br>
         <updated>2021-10-05T05:55:33.000Z</updated>
         <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633413539038.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633413576004.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[段落标签和换行标签]]></title>
-        <id>https://lisizero.github.io/post/duan-luo-biao-qian-he-huan-xing-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/duan-luo-biao-qian-he-huan-xing-biao-qian/">
-        </link>
-        <updated>2021-10-04T18:10:35.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633371476457.png" alt="" loading="lazy"><br>
-标签语义：可以把HTML 文档分割为诺干段落。<br>
-<img src="https://lisizero.github.io//post-images/1633371450388.png" alt="" loading="lazy"><br>
-特点：</p>
-<ol>
-<li>文本在一个段落中会根据浏览器窗口的大小自动换行。</li>
-<li>段落和段落之间保有空隙。</li>
-</ol>
-<p>在 HTML 中 ，一个段落中的文字会从左到右依次排列，直到浏览器窗口的右端，然后才自动换行<br>
-。如何希望某段文本强制换行显示， 就需要使用换行标签 <img src="https://lisizero.github.io//post-images/1633371820906.png" alt="" loading="lazy"></p>
-<p>标签语义：强制换行。<br>
-特点：<br>
-<img src="https://lisizero.github.io//post-images/1633372069506.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
