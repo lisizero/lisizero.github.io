@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-06T19:09:14.729Z</updated>
+    <updated>2021-10-06T19:48:28.990Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,47 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[CSS 网页的美容师]]></title>
+        <id>https://lisizero.github.io/post/css-wang-ye-de-mei-rong-shi/</id>
+        <link href="https://lisizero.github.io/post/css-wang-ye-de-mei-rong-shi/">
+        </link>
+        <updated>2021-10-06T19:28:21.000Z</updated>
+        <content type="html"><![CDATA[<p>CSS 的主要使用场景就是美化网页，布局页面的。</p>
+<ol>
+<li>HTML 的局限性</li>
+<li>CSS-网页的美容师</li>
+</ol>
+<p>HTML 的局限性 ：<br>
+说起 HTML , 这其实是个非常单纯的家伙，他只关注内容的语义 。<br>
+比如 h1 表面这是一个大标题，p 表明这是一个段落，img表明这儿有个图片，a 表示此处有链接。</p>
+<p>很早的时候，世界上网站虽然很多 ，但是他们都有一个共同的特点 ：丑。<br>
+虽然 HTML 可以做简单的样式， 但是带来的是无尽的臃肿和繁琐。。。</p>
+<p>CSS-网页的美容师</p>
+<p>CSS 是层叠样式表 （Cascading Style Sheets) 的简称。<br>
+有时我们会称之为 CSS样式表 或 级联样式表 。</p>
+<p>CSS 也是一种标记语言</p>
+<p>CSS 主要用于设置 HTML 页面中的文本内容 （字体，大小，对齐方式等）， 图片的外形 （宽高，边框样式，边距等 ）以及版面的布局和外观显示样式。</p>
+<p>CSS 让我们页面更加丰富多彩 ，布局更加灵活自如。 简单理解 ：CSS 可以美化 HTML , 让 HTML 更漂亮，让页面布局更简单 。</p>
+<h2>总结 :<h2>
+1. HTML 主要做结构， 显示元素内容。
+2. CSS 美化 HTML, 布局网页。
+3. CSS最大价值：由 HTML 专注去做结构呈现 ，样式交给 CSS, 即结构 （HTML) 与样式 （CSS) 相分离。]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS层叠样式表导读]]></title>
+        <id>https://lisizero.github.io/post/css-ceng-die-yang-shi-biao-dao-du/</id>
+        <link href="https://lisizero.github.io/post/css-ceng-die-yang-shi-biao-dao-du/">
+        </link>
+        <updated>2021-10-06T19:11:56.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+    <li>能够说出什么是 CSS </li>
+    <li>能够使用 CSS 基础选择器 </li>
+    <li>能够设置字体样式 </li>
+    <li>能够说出 CSS 的三种引入方式 </li>
+    <li>能够使用 Chrome 调试工具调试样式 </li>
+<ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10.6英语英语打卡]]></title>
         <id>https://lisizero.github.io/post/ying-yu/</id>
@@ -262,26 +303,6 @@ cellspacing:<br>
 width:<br>
 <img src="https://lisizero.github.io//post-images/1633442241987.png" alt="" loading="lazy"><br>
 <img src="https://lisizero.github.io//post-images/1633442269001.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表头单元格标签]]></title>
-        <id>https://lisizero.github.io/post/biao-tou-dan-yuan-ge-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/biao-tou-dan-yuan-ge-biao-qian/">
-        </link>
-        <updated>2021-10-05T12:34:26.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633440105436.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633440422501.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633440441718.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表格标签]]></title>
-        <id>https://lisizero.github.io/post/biao-ge-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/biao-ge-biao-qian/">
-        </link>
-        <updated>2021-10-05T12:03:13.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633440088371.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
