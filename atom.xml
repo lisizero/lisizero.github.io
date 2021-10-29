@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-07T06:48:42.489Z</updated>
+    <updated>2021-10-29T17:58:01.869Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -11,298 +11,149 @@
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[CSS 网页的美容师]]></title>
-        <id>https://lisizero.github.io/post/css-wang-ye-de-mei-rong-shi/</id>
-        <link href="https://lisizero.github.io/post/css-wang-ye-de-mei-rong-shi/">
+        <title type="html"><![CDATA[过渡]]></title>
+        <id>https://lisizero.github.io/post/guo-du/</id>
+        <link href="https://lisizero.github.io/post/guo-du/">
         </link>
-        <updated>2021-10-06T19:28:21.000Z</updated>
-        <content type="html"><![CDATA[<p>CSS 的主要使用场景就是美化网页，布局页面的。</p>
+        <updated>2021-10-29T17:57:41.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1635530277300.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[子元素选择器]]></title>
+        <id>https://lisizero.github.io/post/zi-yuan-su-xuan-ze-qi/</id>
+        <link href="https://lisizero.github.io/post/zi-yuan-su-xuan-ze-qi/">
+        </link>
+        <updated>2021-10-10T14:38:28.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633876722669.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633877006152.png" alt="" loading="lazy"><br>
+<img src="https://lisizero.github.io//post-images/1633877031355.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[后代选择器]]></title>
+        <id>https://lisizero.github.io/post/hou-dai-xuan-ze-qi/</id>
+        <link href="https://lisizero.github.io/post/hou-dai-xuan-ze-qi/">
+        </link>
+        <updated>2021-10-10T14:02:15.000Z</updated>
+        <content type="html"><![CDATA[<p>后代选择器又称为包含选择器 ，可以选择父元素里面的子元素 。其写法就是把最外层标签写在前面 ，内层标签写在后面，中间用空格分隔 。当标签发送嵌套时，内层标签就成为外层标签的后代。</p>
+<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633875791985.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://lisizero.github.io//post-images/1633876078745.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://lisizero.github.io//post-images/1633876160176.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS 的复合选择器]]></title>
+        <id>https://lisizero.github.io/post/css-de-fu-he-xuan-ze-qi/</id>
+        <link href="https://lisizero.github.io/post/css-de-fu-he-xuan-ze-qi/">
+        </link>
+        <updated>2021-10-10T13:33:12.000Z</updated>
+        <content type="html"><![CDATA[<p>在 CSS 中 ， 可以根据选择器的类型把选择器分为基础选择器和复合选择器 ， 复合选择器是建立在基础选择器之上 ， 对基本选择器进行组合形成的 。</p>
 <ol>
-<li>HTML 的局限性</li>
-<li>CSS-网页的美容师</li>
-</ol>
-<p>HTML 的局限性 ：<br>
-说起 HTML , 这其实是个非常单纯的家伙，他只关注内容的语义 。<br>
-比如 h1 表面这是一个大标题，p 表明这是一个段落，img表明这儿有个图片，a 表示此处有链接。</p>
-<p>很早的时候，世界上网站虽然很多 ，但是他们都有一个共同的特点 ：丑。<br>
-虽然 HTML 可以做简单的样式， 但是带来的是无尽的臃肿和繁琐。。。</p>
-<p>CSS-网页的美容师</p>
-<p>CSS 是层叠样式表 （Cascading Style Sheets) 的简称。<br>
-有时我们会称之为 CSS样式表 或 级联样式表 。</p>
-<p>CSS 也是一种标记语言</p>
-<p>CSS 主要用于设置 HTML 页面中的文本内容 （字体，大小，对齐方式等）， 图片的外形 （宽高，边框样式，边距等 ）以及版面的布局和外观显示样式。</p>
-<p>CSS 让我们页面更加丰富多彩 ，布局更加灵活自如。 简单理解 ：CSS 可以美化 HTML , 让 HTML 更漂亮，让页面布局更简单 。</p>
-<h2>总结 :<h2>
-1. HTML 主要做结构， 显示元素内容。
-2. CSS 美化 HTML, 布局网页。
-3. CSS最大价值：由 HTML 专注去做结构呈现 ，样式交给 CSS, 即结构 （HTML) 与样式 （CSS) 相分离。]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS层叠样式表导读]]></title>
-        <id>https://lisizero.github.io/post/css-ceng-die-yang-shi-biao-dao-du/</id>
-        <link href="https://lisizero.github.io/post/css-ceng-die-yang-shi-biao-dao-du/">
-        </link>
-        <updated>2021-10-06T19:11:56.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-    <li>能够说出什么是 CSS </li>
-    <li>能够使用 CSS 基础选择器 </li>
-    <li>能够设置字体样式 </li>
-    <li>能够说出 CSS 的三种引入方式 </li>
-    <li>能够使用 Chrome 调试工具调试样式 </li>
-<ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10.6英语英语打卡]]></title>
-        <id>https://lisizero.github.io/post/ying-yu/</id>
-        <link href="https://lisizero.github.io/post/ying-yu/">
-        </link>
-        <updated>2021-10-06T09:07:30.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>act<br>
-vi.①行动②起作用③表现<br>
-n.①行为②法案</li>
-<li>active<br>
-a.①活跃的②主动的③定期进行的④爆发<br>
-However , you can make your taste buds active again by drinking water .<br>
-但是，你可以通过喝水使味蕾重新活跃起来。<br>
-actively   ad.积极地                activist n.积极分子</li>
-<li>activate<br>
-vt. 使活动，使活化，激活<br>
-Your QQ number has  been frozen, and you should activate it first.<br>
-你的 QQ 号已经被冻结， 你得先激活它。</li>
-<li>transact<br>
-v.做（交易），办理（业务）<br>
-Most deals are transacted over the phone .<br>
-大多数生意都是在电话里成交的。</li>
-<li>transaction<br>
-n. ①交易②办理<br>
-商业交易：commercial transaction<br>
-电子交易：electronic transaction<br>
-线上交易：online transaction</li>
+<li>复合选择器可以更准确，更高效的选择目标元素 （标签）</li>
+<li>复合选择器是由两个或多个基础选择器 ，通过不同的方式组合而成的</li>
+<li>常用的复合选择器包括 ：后代选择器 ，子选择器，并集选择器，伪类选择器等等</li>
 </ol>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[有序列表（理解）]]></title>
-        <id>https://lisizero.github.io/post/you-xu-lie-biao-li-jie/</id>
-        <link href="https://lisizero.github.io/post/you-xu-lie-biao-li-jie/">
+        <title type="html"><![CDATA[Emmet 语法]]></title>
+        <id>https://lisizero.github.io/post/emmet-yu-fa/</id>
+        <link href="https://lisizero.github.io/post/emmet-yu-fa/">
         </link>
-        <updated>2021-10-05T17:10:58.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633454306149.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633454444103.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633454500279.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[无序列表 （重点）]]></title>
-        <id>https://lisizero.github.io/post/wu-xu-lie-biao/</id>
-        <link href="https://lisizero.github.io/post/wu-xu-lie-biao/">
-        </link>
-        <updated>2021-10-05T16:53:33.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633452847231.png" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://lisizero.github.io//post-images/1633453375226.png" alt="" loading="lazy"></figure>
-<ol start="4">
-<li>无序列表会带有自己的样式属性 ， 但在实际使用时 ， 我们会使用 CSS 来设置。</li>
-</ol>
-<p><img src="https://lisizero.github.io//post-images/1633453623971.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633453662232.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表格总结]]></title>
-        <id>https://lisizero.github.io/post/biao-ge-zong-jie/</id>
-        <link href="https://lisizero.github.io/post/biao-ge-zong-jie/">
-        </link>
-        <updated>2021-10-05T16:37:52.000Z</updated>
-        <content type="html"><![CDATA[<p>表格学习整体可以分为三大部分 ：</p>
+        <updated>2021-10-10T10:34:39.000Z</updated>
+        <content type="html"><![CDATA[<p>Emmet语法的前身是Zen coding,它使用缩写，来提高html/css的编写速度，Vsacode内部已经集成该语法。</p>
 <ol>
-<li>表格的相关标签</li>
-<li>表格的相关属性</li>
-<li>合并单元格</li>
+<li>快速生成HTML结构语法。</li>
+<li>快速生成CSS样式语法。</li>
 </ol>
-<p>一，表格的相关标签：<br>
-我们学习了</p>
+<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633863460352.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS 引入方式总结]]></title>
+        <id>https://lisizero.github.io/post/css-yin-ru-fang-shi-zong-jie/</id>
+        <link href="https://lisizero.github.io/post/css-yin-ru-fang-shi-zong-jie/">
+        </link>
+        <updated>2021-10-10T09:11:59.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633857168671.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[外部样式表]]></title>
+        <id>https://lisizero.github.io/post/wai-bu-yang-shi-biao/</id>
+        <link href="https://lisizero.github.io/post/wai-bu-yang-shi-biao/">
+        </link>
+        <updated>2021-10-10T08:57:43.000Z</updated>
+        <content type="html"><![CDATA[<p>实际开发都是外部样式表。适合于样式较多的情况，核心是：样式单独写到CSS文件中，之后把 CSS 文件引入到 HTML 页面中使用。<br>
+引入外部样式表分为两步 ：</p>
 <ol>
-<li>table 标签</li>
-<li>tr 行 标签</li>
-<li>td 单元格标签</li>
-<li>th 表头单元格 标签</li>
-<li>thead 表格头部区域标签</li>
-<li>tbody 表格主体区域标签</li>
+<li>新建一个后缀名为 .CSS的样式文件，把所有 CSS 代码都放入此文件中。</li>
+<li>在 HTML 页面中 ，使用 link 标签 引入这个文件。</li>
 </ol>
-<p>二，表格的相关属性</p>
-<table>
-<thead>
-<tr>
-<th><h4>属性名<h4></th>
-<th><h4>属性值<h4></th>
-<th><h4>描述<h4></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>align</td>
-<td>left , center , right</td>
-<td>规定表格相对周围的对齐方式。</td>
-</tr>
-<tr>
-<td>boder</td>
-<td>1 或 &quot; &quot;</td>
-<td>规定表格单元是否拥有边框，默认为 &quot; &quot;,表示没有边框</td>
-</tr>
-<tr>
-<td>cellpadding</td>
-<td>像素值</td>
-<td>规定单元边沿与其内容之间的空白， 默认1像素。</td>
-</tr>
-<tr>
-<td>cellspacing</td>
-<td>像素值</td>
-<td>规定单元格之间的空白，默认2像素。</td>
-</tr>
-<tr>
-<td>width</td>
-<td>像素值或百分比</td>
-<td>规定表格的宽度。</td>
-</tr>
-</tbody>
-</table>
-<p>三，合并单元格</p>
+<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633856566040.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[合并单元格]]></title>
-        <id>https://lisizero.github.io/post/he-bing-dan-yuan-ge/</id>
-        <link href="https://lisizero.github.io/post/he-bing-dan-yuan-ge/">
+        <title type="html"><![CDATA[文本属性总结]]></title>
+        <id>https://lisizero.github.io/post/wen-ben-shu-xing-zong-jie/</id>
+        <link href="https://lisizero.github.io/post/wen-ben-shu-xing-zong-jie/">
         </link>
-        <updated>2021-10-05T15:54:40.000Z</updated>
-        <content type="html"><![CDATA[<p>特殊情况下， 可以把多个单元格合并为一个单元格。</p>
-<ol>
-<li>合并单元格方式</li>
-<li>目标单元格</li>
-<li>合并单元格的步骤</li>
-</ol>
-<h2>合并单元格方式 ：<h2>
-<ul>
-    <li>跨行合并 ：rowspan="合并单元格的个数" </li>
-    <li>跨列合并 ：colspan="合并单元格的个数" </li>
-</ul>
-<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633449629019.png" alt="" loading="lazy"></figure>
-<h2>目标单元格 ：（写合并代码） <h2>
-<ul>
-    <li>跨行 ：最上侧单元格为目标单元格，写合并代码 </li>
-    <li>跨列 ：最左侧单元格为目标单元格，写合并代码 </li>
-</ul>
-<p>合并单元格三部曲：<br>
-<img src="https://lisizero.github.io//post-images/1633450797467.png" alt="" loading="lazy"></p>
-<p>创建单元格：<br>
-<img src="https://lisizero.github.io//post-images/1633450511391.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633450533513.png" alt="" loading="lazy"></p>
-<p>跨列合并 colspan :</p>
-<p><img src="https://lisizero.github.io//post-images/1633450930400.png" alt="" loading="lazy"><br>
-选择合并数量“2”，删除多余单元格。<br>
-<img src="https://lisizero.github.io//post-images/1633451062434.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633451097778.png" alt="" loading="lazy"></p>
-<p>跨行合并rowspan :<br>
-选择合并数量 “2” ，删除多余单元格。</p>
-<p><img src="https://lisizero.github.io//post-images/1633451241747.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633451304113.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表格结构标签]]></title>
-        <id>https://lisizero.github.io/post/biao-ge-jie-gou-biao-qian/</id>
-        <link href="https://lisizero.github.io/post/biao-ge-jie-gou-biao-qian/">
-        </link>
-        <updated>2021-10-05T15:20:53.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633447607535.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633447967074.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633448214849.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633448459803.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小说排行榜案例]]></title>
-        <id>https://lisizero.github.io/post/xiao-shuo-pai-xing-bang-an-li/</id>
-        <link href="https://lisizero.github.io/post/xiao-shuo-pai-xing-bang-an-li/">
-        </link>
-        <updated>2021-10-05T14:03:43.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633443093191.png" alt="" loading="lazy"><br>
-第一行：<br>
-<img src="https://lisizero.github.io//post-images/1633443138686.png" alt="" loading="lazy"><br>
-第二行：<br>
-<img src="https://lisizero.github.io//post-images/1633443216837.png" alt="" loading="lazy"><br>
-第三行：<br>
-<img src="https://lisizero.github.io//post-images/1633443290673.png" alt="" loading="lazy"><br>
-第四行：<br>
-<img src="https://lisizero.github.io//post-images/1633443322220.png" alt="" loading="lazy"><br>
-第五行：<br>
-<img src="https://lisizero.github.io//post-images/1633443360357.png" alt="" loading="lazy"><br>
-第六行：<br>
-<img src="https://lisizero.github.io//post-images/1633443405632.png" alt="" loading="lazy"><br>
-第七行：<br>
-<img src="https://lisizero.github.io//post-images/1633443462137.png" alt="" loading="lazy"><br>
-第八行：<br>
-<img src="https://lisizero.github.io//post-images/1633443498009.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[表格相关属性]]></title>
-        <id>https://lisizero.github.io/post/biao-ge-xiang-guan-shu-xing/</id>
-        <link href="https://lisizero.github.io/post/biao-ge-xiang-guan-shu-xing/">
-        </link>
-        <updated>2021-10-05T13:34:20.000Z</updated>
+        <updated>2021-10-10T08:10:26.000Z</updated>
         <content type="html"><![CDATA[<table>
 <thead>
 <tr>
-<th><h4>属性名<h4></th>
-<th><h4>属性值<h4></th>
-<th><h4>描述<h4></th>
+<th>属性</th>
+<th>表示</th>
+<th>注意点</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>align</td>
-<td>left , center , right</td>
-<td>规定表格相对周围的对齐方式。</td>
+<td>color</td>
+<td>文本颜色</td>
+<td>我们通常用 十六进制 比如 而且是简写方式 #ffff</td>
 </tr>
 <tr>
-<td>boder</td>
-<td>1 或 &quot; &quot;</td>
-<td>规定表格单元是否拥有边框，默认为 &quot; &quot;,表示没有边框</td>
+<td>text -align</td>
+<td>文本对齐</td>
+<td>可以设定文字水平的对齐方式</td>
 </tr>
 <tr>
-<td>cellpadding</td>
-<td>像素值</td>
-<td>规定单元边沿与其内容之间的空白， 默认1像素。</td>
+<td>text-indent</td>
+<td>文本缩进</td>
+<td>通常我们用于段落缩进2个字的距离 text-indent 2em;</td>
 </tr>
 <tr>
-<td>cellspacing</td>
-<td>像素值</td>
-<td>规定单元格之间的空白，默认2像素。</td>
+<td>text-decoration</td>
+<td>文本修饰</td>
+<td>记住 添加下划线 underline 取消下划线 none</td>
 </tr>
 <tr>
-<td>width</td>
-<td>像素值或百分比</td>
-<td>规定表格的宽度。</td>
+<td>line-height</td>
+<td>行高</td>
+<td>控制行与行之间的距离</td>
 </tr>
 </tbody>
 </table>
-<p>align:<br>
-<img src="https://lisizero.github.io//post-images/1633441483912.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633441733591.png" alt="" loading="lazy"><br>
-boder:<br>
-<img src="https://lisizero.github.io//post-images/1633441789832.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633441806247.png" alt="" loading="lazy"><br>
-cellpadding:<br>
-<img src="https://lisizero.github.io//post-images/1633441975093.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633442003221.png" alt="" loading="lazy"><br>
-cellspacing:<br>
-<img src="https://lisizero.github.io//post-images/1633442129241.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633442158208.png" alt="" loading="lazy"><br>
-width:<br>
-<img src="https://lisizero.github.io//post-images/1633442241987.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633442269001.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[font-style字体样式]]></title>
+        <id>https://lisizero.github.io/post/font-style-zi-ti-yang-shi/</id>
+        <link href="https://lisizero.github.io/post/font-style-zi-ti-yang-shi/">
+        </link>
+        <updated>2021-10-10T07:40:44.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633851696197.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基础选择器总结]]></title>
+        <id>https://lisizero.github.io/post/ji-chu-xuan-ze-qi-zong-jie/</id>
+        <link href="https://lisizero.github.io/post/ji-chu-xuan-ze-qi-zong-jie/">
+        </link>
+        <updated>2021-10-09T16:49:12.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633798192718.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
