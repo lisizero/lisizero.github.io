@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-16T04:46:25.767Z</updated>
+    <updated>2021-12-17T16:23:55.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[HTTP 协议]]></title>
+        <id>https://lisizero.github.io/post/http-xie-yi/</id>
+        <link href="https://lisizero.github.io/post/http-xie-yi/">
+        </link>
+        <updated>2021-12-17T16:10:46.000Z</updated>
+        <content type="html"><![CDATA[<p>协议： 就是两个计算机之间为了能够流畅的进行沟通而设置的一个君子协定。 常见的协议有TCP/IP. SOAP协议，HTTP协议，SMTP协议等等......</p>
+<p>HTTP协议，Hyper Text Transfer Protocol (超文本传输协议) 的缩写，是用于从万维网 (WWW:World Wide Web) 服务器传输超文本到本地浏览器的传送协议。 直白点儿，就是浏览器和服务器之间的数据交互遵守的就是HTTP协议。</p>
+<p>HTTP协议把消息分为三大块内容。 无论是请求还是相应都是三块内容</p>
+<p>请求：</p>
+<ol>
+<li>请求行 → 请求方式 (get/post) 请求url地址 协议</li>
+<li>请求头 → 放一些服务器要使用的附加信息</li>
+<li></li>
+<li>请求体 → 一般放一些请求参数</li>
+</ol>
+<p>响应：</p>
+<ol>
+<li>状态行 → 协议 状态码</li>
+<li>响应头 → 放一些客户端要使用的一些附加信息</li>
+<li></li>
+<li>响应体 → 服务器返回的真正客户端要用的内容(HTML , json)等</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[英语1.1]]></title>
         <id>https://lisizero.github.io/post/ying-yu-11/</id>
@@ -167,21 +192,6 @@ Once more, I glanced at the silver pin before returning it to the velvet box. On
         </link>
         <updated>2021-10-10T09:11:59.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633857168671.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[外部样式表]]></title>
-        <id>https://lisizero.github.io/post/wai-bu-yang-shi-biao/</id>
-        <link href="https://lisizero.github.io/post/wai-bu-yang-shi-biao/">
-        </link>
-        <updated>2021-10-10T08:57:43.000Z</updated>
-        <content type="html"><![CDATA[<p>实际开发都是外部样式表。适合于样式较多的情况，核心是：样式单独写到CSS文件中，之后把 CSS 文件引入到 HTML 页面中使用。<br>
-引入外部样式表分为两步 ：</p>
-<ol>
-<li>新建一个后缀名为 .CSS的样式文件，把所有 CSS 代码都放入此文件中。</li>
-<li>在 HTML 页面中 ，使用 link 标签 引入这个文件。</li>
-</ol>
-<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633856566040.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
