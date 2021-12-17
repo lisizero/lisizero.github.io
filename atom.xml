@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-17T16:26:48.346Z</updated>
+    <updated>2021-12-17T16:37:24.813Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -32,6 +32,17 @@
 <li>响应头 → 放一些客户端要使用的一些附加信息</li>
 <li></li>
 <li>响应体 → 服务器返回的真正客户端要用的内容(HTML , json)等</li>
+</ol>
+<p>请求头中最常见的一些重要内容(爬虫需要)：</p>
+<ol>
+<li>User-Agent : 请求载体的身份标识(用啥发送的请求)</li>
+<li>Referer: 防盗链(这次请求是从哪个页面来的？ 反爬会用到)</li>
+<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
+</ol>
+<p>响应头中一些重要的内容：</p>
+<ol>
+<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
+<li>各种神奇的莫名奇妙的字符串(这个需要经验了，一般都是token字样，防止各种攻击和反爬)</li>
 </ol>
 ]]></content>
     </entry>
