@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-17T16:55:48.946Z</updated>
+    <updated>2021-12-18T13:30:36.781Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,103 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Re解析 正则表达式]]></title>
+        <id>https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
+        <link href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
+        </link>
+        <updated>2021-12-18T11:39:01.000Z</updated>
+        <content type="html"><![CDATA[<p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
+<p>我们抓取到的网页源代码本质上就是一个超长的字符串，想从里面提取内容。用正则再适合不过了。</p>
+<p>正则的优点：速度快，效率高，准确性高<br>
+正则的缺点：新手上手难度有点儿高。</p>
+<p>不过只要掌握了正则编写的逻辑关系，写出一个提取页面内容的正则其实并不复杂</p>
+<p>正则的语法： 使用元字符进行排列组合用来匹配字符串 在线测试正则表达式:<br>
+https://tool.oschina.net/regex/</p>
+<p>元字符： 具有固定含意的特殊符号<br>
+常用元字符：</p>
+<ol>
+<li>
+<pre><code>  .          匹配除换行符以外的任意字符
+</code></pre>
+</li>
+<li>
+<pre><code>  \w       匹配字母或数字或下划线
+</code></pre>
+</li>
+<li>
+<pre><code>  \s         匹配任意的空白符
+</code></pre>
+</li>
+<li>
+<pre><code>  \d         匹配数字
+</code></pre>
+</li>
+<li>
+<pre><code>  \n         匹配一个换行符
+</code></pre>
+</li>
+<li>
+<pre><code>  \t          匹配一个制表符
+</code></pre>
+</li>
+<li>
+<pre><code>  1
+</code></pre>
+</li>
+<li>
+<pre><code>  ^          匹配字符串的开始
+</code></pre>
+</li>
+<li>
+<pre><code>  $          匹配字符串的结尾
+</code></pre>
+</li>
+<li>
+<pre><code> 1
+</code></pre>
+</li>
+<li>
+<pre><code> \W        匹配非字母或数字或下划线
+</code></pre>
+</li>
+<li>
+<pre><code> \D         匹配非数字
+</code></pre>
+</li>
+<li>
+<pre><code> \S         匹配非空白符
+</code></pre>
+</li>
+<li>
+<pre><code> alb        匹配字符a或字符b
+</code></pre>
+</li>
+<li>
+<pre><code> （）       匹配括号内的表达式，也表示一个组
+</code></pre>
+</li>
+<li>
+<pre><code> [. . .]        匹配字符组中的字符
+</code></pre>
+</li>
+<li>
+<pre><code> [^...]         匹配除了字符组中字符的所有字符
+</code></pre>
+</li>
+</ol>
+<p>量词： 控制前面的元字符出现的次数</p>
+<ol>
+<li>
+<ul>
+<li>
+<pre><code>       重复零次或更多次</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HTTP 协议]]></title>
         <id>https://lisizero.github.io/post/http-xie-yi/</id>
@@ -150,63 +247,35 @@ Once more, I glanced at the silver pin before returning it to the velvet box. On
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[子元素选择器]]></title>
-        <id>https://lisizero.github.io/post/zi-yuan-su-xuan-ze-qi/</id>
-        <link href="https://lisizero.github.io/post/zi-yuan-su-xuan-ze-qi/">
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://lisizero.github.io/post/hello-gridea/</id>
+        <link href="https://lisizero.github.io/post/hello-gridea/">
         </link>
-        <updated>2021-10-10T14:38:28.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1633876722669.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633877006152.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1633877031355.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[后代选择器]]></title>
-        <id>https://lisizero.github.io/post/hou-dai-xuan-ze-qi/</id>
-        <link href="https://lisizero.github.io/post/hou-dai-xuan-ze-qi/">
-        </link>
-        <updated>2021-10-10T14:02:15.000Z</updated>
-        <content type="html"><![CDATA[<p>后代选择器又称为包含选择器 ，可以选择父元素里面的子元素 。其写法就是把最外层标签写在前面 ，内层标签写在后面，中间用空格分隔 。当标签发送嵌套时，内层标签就成为外层标签的后代。</p>
-<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633875791985.png" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://lisizero.github.io//post-images/1633876078745.png" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="3"><img src="https://lisizero.github.io//post-images/1633876160176.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS 的复合选择器]]></title>
-        <id>https://lisizero.github.io/post/css-de-fu-he-xuan-ze-qi/</id>
-        <link href="https://lisizero.github.io/post/css-de-fu-he-xuan-ze-qi/">
-        </link>
-        <updated>2021-10-10T13:33:12.000Z</updated>
-        <content type="html"><![CDATA[<p>在 CSS 中 ， 可以根据选择器的类型把选择器分为基础选择器和复合选择器 ， 复合选择器是建立在基础选择器之上 ， 对基本选择器进行组合形成的 。</p>
-<ol>
-<li>复合选择器可以更准确，更高效的选择目标元素 （标签）</li>
-<li>复合选择器是由两个或多个基础选择器 ，通过不同的方式组合而成的</li>
-<li>常用的复合选择器包括 ：后代选择器 ，子选择器，并集选择器，伪类选择器等等</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emmet 语法]]></title>
-        <id>https://lisizero.github.io/post/emmet-yu-fa/</id>
-        <link href="https://lisizero.github.io/post/emmet-yu-fa/">
-        </link>
-        <updated>2021-10-10T10:34:39.000Z</updated>
-        <content type="html"><![CDATA[<p>Emmet语法的前身是Zen coding,它使用缩写，来提高html/css的编写速度，Vsacode内部已经集成该语法。</p>
-<ol>
-<li>快速生成HTML结构语法。</li>
-<li>快速生成CSS样式语法。</li>
-</ol>
-<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633863460352.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS 引入方式总结]]></title>
-        <id>https://lisizero.github.io/post/css-yin-ru-fang-shi-zong-jie/</id>
-        <link href="https://lisizero.github.io/post/css-yin-ru-fang-shi-zong-jie/">
-        </link>
-        <updated>2021-10-10T09:11:59.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1633857168671.png" alt="" loading="lazy"></figure>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>

@@ -78,46 +78,103 @@
 <div class="mask" onclick="closeMenu()">
 </div>
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">HTTP 协议</h1>
+        <h1 class="text-3xl font-bold lg:mt-16">Re解析 正则表达式</h1>
         <div class="text-sm text-gray-700 lg:my-8">
           2021-12-18 / 2 min read
         </div>
         
-          <img class="post-feature-image rounded-lg mx-auto my-4" src="/post-images/http-xie-yi.jpg" alt="">
+          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://lisizero.github.io//post-images/re-jie-xi-zheng-ze-biao-da-shi.jpg" alt="">
         
         <div class="post-content yue">
-          <p>协议： 就是两个计算机之间为了能够流畅的进行沟通而设置的一个君子协定。 常见的协议有TCP/IP. SOAP协议，HTTP协议，SMTP协议等等......</p>
-<p>HTTP协议，Hyper Text Transfer Protocol (超文本传输协议) 的缩写，是用于从万维网 (WWW:World Wide Web) 服务器传输超文本到本地浏览器的传送协议。 直白点儿，就是浏览器和服务器之间的数据交互遵守的就是HTTP协议。</p>
-<p>HTTP协议把消息分为三大块内容。 无论是请求还是相应都是三块内容</p>
-<p>请求：</p>
+          <p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
+<p>我们抓取到的网页源代码本质上就是一个超长的字符串，想从里面提取内容。用正则再适合不过了。</p>
+<p>正则的优点：速度快，效率高，准确性高<br>
+正则的缺点：新手上手难度有点儿高。</p>
+<p>不过只要掌握了正则编写的逻辑关系，写出一个提取页面内容的正则其实并不复杂</p>
+<p>正则的语法： 使用元字符进行排列组合用来匹配字符串 在线测试正则表达式:<br>
+https://tool.oschina.net/regex/</p>
+<p>元字符： 具有固定含意的特殊符号<br>
+常用元字符：</p>
 <ol>
-<li>请求行 → 请求方式 (get/post) 请求url地址 协议</li>
-<li>请求头 → 放一些服务器要使用的附加信息</li>
-<li></li>
-<li>请求体 → 一般放一些请求参数</li>
-</ol>
-<p>响应：</p>
-<ol>
-<li>状态行 → 协议 状态码</li>
-<li>响应头 → 放一些客户端要使用的一些附加信息</li>
-<li></li>
-<li>响应体 → 服务器返回的真正客户端要用的内容(HTML , json)等</li>
-</ol>
-<p>请求头中最常见的一些重要内容(爬虫需要)：</p>
-<ol>
-<li>User-Agent : 请求载体的身份标识(用啥发送的请求)</li>
-<li>Referer: 防盗链(这次请求是从哪个页面来的？ 反爬会用到)</li>
-<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
-</ol>
-<p>响应头中一些重要的内容：</p>
-<ol>
-<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
-<li>各种神奇的莫名奇妙的字符串(这个需要经验了，一般都是token字样，防止各种攻击和反爬)</li>
-</ol>
-<p>请求方式 ：</p>
-<pre><code>GET: 显示提交
-POST: 隐式提交
+<li>
+<pre><code>  .          匹配除换行符以外的任意字符
 </code></pre>
+</li>
+<li>
+<pre><code>  \w       匹配字母或数字或下划线
+</code></pre>
+</li>
+<li>
+<pre><code>  \s         匹配任意的空白符
+</code></pre>
+</li>
+<li>
+<pre><code>  \d         匹配数字
+</code></pre>
+</li>
+<li>
+<pre><code>  \n         匹配一个换行符
+</code></pre>
+</li>
+<li>
+<pre><code>  \t          匹配一个制表符
+</code></pre>
+</li>
+<li>
+<pre><code>  1
+</code></pre>
+</li>
+<li>
+<pre><code>  ^          匹配字符串的开始
+</code></pre>
+</li>
+<li>
+<pre><code>  $          匹配字符串的结尾
+</code></pre>
+</li>
+<li>
+<pre><code> 1
+</code></pre>
+</li>
+<li>
+<pre><code> \W        匹配非字母或数字或下划线
+</code></pre>
+</li>
+<li>
+<pre><code> \D         匹配非数字
+</code></pre>
+</li>
+<li>
+<pre><code> \S         匹配非空白符
+</code></pre>
+</li>
+<li>
+<pre><code> alb        匹配字符a或字符b
+</code></pre>
+</li>
+<li>
+<pre><code> （）       匹配括号内的表达式，也表示一个组
+</code></pre>
+</li>
+<li>
+<pre><code> [. . .]        匹配字符组中的字符
+</code></pre>
+</li>
+<li>
+<pre><code> [^...]         匹配除了字符组中字符的所有字符
+</code></pre>
+</li>
+</ol>
+<p>量词： 控制前面的元字符出现的次数</p>
+<ol>
+<li>
+<ul>
+<li>
+<pre><code>       重复零次或更多次</code></pre>
+</li>
+</ul>
+</li>
+</ol>
 
         </div>
 
@@ -126,21 +183,12 @@ POST: 隐式提交
 
         <div class="flex justify-between py-8">
           
-            <div class="prev-post">
-              <a href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
-                <h3 class="post-title">
-                  <i class="ri-arrow-left-line"></i>
-                  Re解析 正则表达式
-                </h3>
-              </a>
-            </div>
-          
 
           
             <div class="next-post">
-              <a href="https://lisizero.github.io/post/ying-yu-11/">
+              <a href="https://lisizero.github.io/post/http-xie-yi/">
                 <h3 class="post-title">
-                  英语1.1
+                  HTTP 协议
                   <i class="ri-arrow-right-line"></i>
                 </h3>
               </a>
