@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lisizero.github.io/</id>
+    <id>http://localhost:4000</id>
     <title>Gridea</title>
-    <updated>2021-12-18T13:33:30.844Z</updated>
+    <updated>2022-01-01T05:36:53.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lisizero.github.io/"/>
-    <link rel="self" href="https://lisizero.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>最短的捷径就是绕远路</subtitle>
-    <logo>https://lisizero.github.io/images/avatar.png</logo>
-    <icon>https://lisizero.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[打卡2020.1.1]]></title>
+        <id>http://localhost:4000/post/da-qia-202011/</id>
+        <link href="http://localhost:4000/post/da-qia-202011/">
+        </link>
+        <updated>2022-01-01T04:56:19.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>elect [əˈlekt] vt. ①选举②选择，决定</li>
+<li>election [əˈlekSH(ə)n] n. ①选举，推举；②当选</li>
+<li>collect [kəˈlekt] vt. ①收集；②收藏   v.积聚  a./ad. (打电话)由对方付费(的)</li>
+<li>collection [kəˈlekSH(ə)n] n. ①收集 ②(一批)收藏品</li>
+<li>select [səˈlekt] vt.(经过认真思考而)选择 a.精选的</li>
+<li>selection [səˈlekSH(ə)n] n.①选择②被选中的人(或物)</li>
+<li>intellect [ˈin(t)lˌekt] n.①智力，理解力②才智非凡的人</li>
+<li>intellectual [ˌin(t)əˈlek(t)SH(o͞o)əl] a.①智力的②有才智的 n.知识分子</li>
+<li>intelligence [inˈteləjəns] n.①智力，智慧②聪明③情报； 译 : 智商 intelligence quotient (IQ);</li>
+<li>intelligent [inˈteləjənt] a.①聪明的②有才智的③智能的</li>
+<li>reflect [rəˈflekt] v. [影像]①映出，照出；②[光，热，声音等]反射；③[事物]显示，反映；④[人][~on/upon]认真思考</li>
+<li>reflection [rəˈflekSH(ə)n] (also reflection) n.①影像，倒影②反射③反映④反省；</li>
+<li>flexible [ˈfleksəb(ə)l] a.①易弯曲的，有弹性；→②灵活</li>
+<li>flexibility [ˌfleksəˈbilədē] n. ①弹性，柔性②灵活性</li>
+<li>relation [rəˈlāSH(ə)n] n.①关系 ②亲戚</li>
+<li>relationship [rəˈlāSH(ə)nˌSHip] n.①(人或团体之间的关系)②(事物之间的)联系；</li>
+<li>relate [rəˈlāt] vi.①相同关系，有关系②认同，理解; vt.把...联系起来</li>
+<li>relative [ˈrelədiv] a.相对的(considered in relation to sb./sth. else) n.亲戚(=relation)</li>
+<li>relativity [ˌreləˈtivədē] n.相对论</li>
+<li>respond [rəˈspänd] vi. (to)回应，v.回答</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[for 循环]]></title>
+        <id>http://localhost:4000/post/for-xun-huan/</id>
+        <link href="http://localhost:4000/post/for-xun-huan/">
+        </link>
+        <updated>2021-12-25T07:59:15.000Z</updated>
+        <content type="html"><![CDATA[<p>在程序中，一组被重复执行的语句被称之为循环体， 能否继续重复执行，取决于循环的终止条件。由循环体及循环的终止条件组成的语句，被称之为循环语句。</p>
+<ol>
+<li>for 循环重复执行某些代码，  通常跟计数有关系</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Re解析 正则表达式]]></title>
-        <id>https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
-        <link href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
+        <id>http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
+        <link href="http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/">
         </link>
         <updated>2021-12-18T11:39:01.000Z</updated>
         <content type="html"><![CDATA[<p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
@@ -116,13 +158,20 @@ https://tool.oschina.net/regex/</p>
 <li>？           重复零次或一次</li>
 <li>{n}          重复n次</li>
 <li>{n,}         重复n次或更多次</li>
+<li>{n,m}        重复n到m次</li>
+</ol>
+<p>贪婪匹配和惰性匹配</p>
+<ol>
+<li>.*           贪婪匹配</li>
+<li>，*？      惰性匹配<br>
+这两个要着重的说一下。因为我们写爬虫用的最多的就是这个惰性匹配</li>
 </ol>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[HTTP 协议]]></title>
-        <id>https://lisizero.github.io/post/http-xie-yi/</id>
-        <link href="https://lisizero.github.io/post/http-xie-yi/">
+        <id>http://localhost:4000/post/http-xie-yi/</id>
+        <link href="http://localhost:4000/post/http-xie-yi/">
         </link>
         <updated>2021-12-17T16:10:46.000Z</updated>
         <content type="html"><![CDATA[<p>协议： 就是两个计算机之间为了能够流畅的进行沟通而设置的一个君子协定。 常见的协议有TCP/IP. SOAP协议，HTTP协议，SMTP协议等等......</p>
@@ -161,8 +210,8 @@ POST: 隐式提交
     </entry>
     <entry>
         <title type="html"><![CDATA[英语1.1]]></title>
-        <id>https://lisizero.github.io/post/ying-yu-11/</id>
-        <link href="https://lisizero.github.io/post/ying-yu-11/">
+        <id>http://localhost:4000/post/ying-yu-11/</id>
+        <link href="http://localhost:4000/post/ying-yu-11/">
         </link>
         <updated>2021-12-16T04:45:49.000Z</updated>
         <content type="html"><![CDATA[<p>A Question of Rights 一项权利问题<br>
@@ -228,40 +277,40 @@ Once more, I glanced at the silver pin before returning it to the velvet box. On
     </entry>
     <entry>
         <title type="html"><![CDATA[动画]]></title>
-        <id>https://lisizero.github.io/post/dong-hua/</id>
-        <link href="https://lisizero.github.io/post/dong-hua/">
+        <id>http://localhost:4000/post/dong-hua/</id>
+        <link href="http://localhost:4000/post/dong-hua/">
         </link>
         <updated>2021-11-08T13:41:38.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1636378907163.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1636378907163.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[品优购]]></title>
-        <id>https://lisizero.github.io/post/pin-you-gou/</id>
-        <link href="https://lisizero.github.io/post/pin-you-gou/">
+        <id>http://localhost:4000/post/pin-you-gou/</id>
+        <link href="http://localhost:4000/post/pin-you-gou/">
         </link>
         <updated>2021-10-30T02:48:08.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1635562100526.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635572079423.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635572252430.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1638958631307.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635593628458.png" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1635562100526.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1635572079423.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1635572252430.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1638958631307.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1635593628458.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[过渡]]></title>
-        <id>https://lisizero.github.io/post/guo-du/</id>
-        <link href="https://lisizero.github.io/post/guo-du/">
+        <id>http://localhost:4000/post/guo-du/</id>
+        <link href="http://localhost:4000/post/guo-du/">
         </link>
         <updated>2021-10-29T17:57:41.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1635530277300.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635530426678.png" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1635530277300.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1635530426678.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://lisizero.github.io/post/hello-gridea/</id>
-        <link href="https://lisizero.github.io/post/hello-gridea/">
+        <id>http://localhost:4000/post/hello-gridea/</id>
+        <link href="http://localhost:4000/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
