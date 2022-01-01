@@ -1,22 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lisizero.github.io/</id>
-    <title>Gridea</title>
-    <updated>2022-01-01T07:10:15.751Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lisizero.github.io/"/>
-    <link rel="self" href="https://lisizero.github.io/atom.xml"/>
-    <subtitle>最短的捷径就是绕远路</subtitle>
-    <logo>https://lisizero.github.io/images/avatar.png</logo>
-    <icon>https://lisizero.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[计算机系统结构]]></title>
-        <id>https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/</id>
-        <link href="https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/">
-        </link>
-        <updated>2022-01-01T07:08:41.000Z</updated>
-        <content type="html"><![CDATA[<p>1计算机系统的多级层次结构, , 1：M0微程序（微指令）机器、2：M1传统（机器指令）机器、3：M2操作系统（作业控制）机器、4：M3汇编语言机器、5：M4高级语言机器、6：M5应用语言机器；1-2为实际机器，3-6为虚拟机器<br>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gridea</title>
+<meta name="description" content="最短的捷径就是绕远路" />
+<link rel="shortcut icon" href="https://lisizero.github.io//favicon.ico?v=1641021013557">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+<link rel="stylesheet" href="https://lisizero.github.io//styles/main.css">
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main px-4 flex flex-col lg:flex-row">
+      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
+  <div class="lg:sticky top-0">
+    <div class="sidebar-content">
+      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
+        <i class="ri-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
+        <a href="https://lisizero.github.io/">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://lisizero.github.io//images/avatar.png?v=1641021013557" alt="">
+        </a>
+        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">Gridea</h1>
+      </div>
+      
+        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
+          <p class="my-4 text-gray-600 font-light hidden lg:block">
+            文章目录
+          </p>
+          <div class="toc-container hidden lg:block">
+            
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="menu-container">
+  <i class="ri-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
+  <div>
+    
+      
+        <a href="/" class="menu" style="animation-delay: 0s">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="site-footer">
+    <div class="py-4 text-gray-700">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></div>
+    <a class="rss" href="https://lisizero.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+<div class="mask" onclick="closeMenu()">
+</div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">计算机系统结构</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2022-01-01 / 48 min read
+        </div>
+        
+        <div class="post-content yue">
+          <p>1计算机系统的多级层次结构, , 1：M0微程序（微指令）机器、2：M1传统（机器指令）机器、3：M2操作系统（作业控制）机器、4：M3汇编语言机器、5：M4高级语言机器、6：M5应用语言机器；1-2为实际机器，3-6为虚拟机器<br>
 2, 各个机器级的实现的依靠, , 翻译和解释<br>
 3, 翻译, translation, 是先用转换程序将高一级机器级上实现的程序整个地变换成低一级机器级上等效的程序，然后再在低一级机器上实现的技术。<br>
 4, 解释, interpretation, 在低级机器级上用它的一串语句或指令来仿真高级机器级上的一条语句或指令的功能，通过高级机器语言程序中的每条语句或指令逐条解释来实现的技术。<br>
@@ -386,384 +454,129 @@
 　　3)由段表始址和段号找到装入位等相应表项<br>
 　　4)装入位为1转5，否则产生缺页中断<br>
 　　5)主存地址+段内偏移=物理地址</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[语法题应试技巧]]></title>
-        <id>https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/</id>
-        <link href="https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/">
-        </link>
-        <updated>2022-01-01T05:46:04.000Z</updated>
-        <content type="html"><![CDATA[<p>（一） 一般现在时</p>
-<ol>
-<li>
-<p>构 成<br>
-通常以动词原形表示。如主语第三人称单数， 动词要改为第三人称单数形式。 否定句或疑问句要借助助动词 do/does .</p>
-</li>
-<li>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>be</th>
-<th>实义动词</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>肯定句</td>
-<td>主语+be+表语</td>
-<td>主语+do/does</td>
-</tr>
-<tr>
-<td>否定句</td>
-<td>主语+be not+ 表语</td>
-<td>主语+don't +do</td>
-</tr>
-<tr>
-<td>一般疑问句</td>
-<td>Be+主语+表语</td>
-<td>Do/Does+主语+do+...?</td>
-</tr>
-<tr>
-<td>特殊疑问句</td>
-<td>特殊疑问词+ be +主语+语法</td>
-<td>特殊疑问词+do/does+主语+do+...?</td>
-</tr>
-<tr>
-<td>时间状语</td>
-<td>often ,every day, usually,always,frequently</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ol start="2">
-<li>
-<p>用 法</p>
-<p>(1) 表示性质，状态和经常性或习惯性的动作，常与 often , usually , always, sometimes , every day , once a week , on Sundays 等表示经常性或习惯性的时间状语连用。</p>
-<p>例：</p>
-<p>My father walks(散步) to his office.</p>
-<p>We usually(通常) go to work by car , but today by bus.</p>
-<p>(2) &quot;主将从现'' 用法。 在时间和条件状语从句中，可用一般现在时代替一般将来时， 这是 B级考试常考的考点。</p>
-<p>例：</p>
-<p>If you company i<u>nsists on</u>(坚持) your price(价格), we will have to <u>turn to other</u>（转订单） suppliers（供应商） for the goods (对于货物）.</p>
-<p><u>He will go</u>（他将会出去） <u>if it is fine tomorrow</u>（如果明天天气好）.</p>
-<p>（3）在某些以 here , there 开头的句子中用一般现在时表示现在发生的动作。</p>
-<p>例：</p>
-<p>Here comes the teacher.(老师来了)</p>
-<p>There goes the bell.(铃声响起)</p>
-<p>（4）一般现在时表示客观现实或普遍真理。</p>
-<p>例：</p>
-<p>Autumn（秋天） follows(跟随) summer(夏天）.</p>
-<p>When winter(冬天) comes, can spring(春天) be far behind?（冬天来了，春天还会远吗？）.</p>
-</li>
-</ol>
-</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[技巧]]></title>
-        <id>https://lisizero.github.io/post/ji-qiao/</id>
-        <link href="https://lisizero.github.io/post/ji-qiao/">
-        </link>
-        <updated>2022-01-01T05:38:36.000Z</updated>
-        <content type="html"><![CDATA[<p>读中</p>
-<ol>
-<li>快速阅读文本；掌握大意：①读首段，尾端，推测文章内容；②各段落首句；③注意标题</li>
-<li>浏览考项，划出关键词，定位原文，找出答案。<br>
-读后</li>
-<li>查词</li>
-<li>翻译全文</li>
-<li>通读全文</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[打卡2020.1.1]]></title>
-        <id>https://lisizero.github.io/post/da-qia-202011/</id>
-        <link href="https://lisizero.github.io/post/da-qia-202011/">
-        </link>
-        <updated>2022-01-01T04:56:19.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>elect [əˈlekt] vt. ①选举②选择，决定</li>
-<li>election [əˈlekSH(ə)n] n. ①选举，推举；②当选</li>
-<li>collect [kəˈlekt] vt. ①收集；②收藏   v.积聚  a./ad. (打电话)由对方付费(的)</li>
-<li>collection [kəˈlekSH(ə)n] n. ①收集 ②(一批)收藏品</li>
-<li>select [səˈlekt] vt.(经过认真思考而)选择 a.精选的</li>
-<li>selection [səˈlekSH(ə)n] n.①选择②被选中的人(或物)</li>
-<li>intellect [ˈin(t)lˌekt] n.①智力，理解力②才智非凡的人</li>
-<li>intellectual [ˌin(t)əˈlek(t)SH(o͞o)əl] a.①智力的②有才智的 n.知识分子</li>
-<li>intelligence [inˈteləjəns] n.①智力，智慧②聪明③情报； 译 : 智商 intelligence quotient (IQ);</li>
-<li>intelligent [inˈteləjənt] a.①聪明的②有才智的③智能的</li>
-<li>reflect [rəˈflekt] v. [影像]①映出，照出；②[光，热，声音等]反射；③[事物]显示，反映；④[人][~on/upon]认真思考</li>
-<li>reflection [rəˈflekSH(ə)n] (also reflection) n.①影像，倒影②反射③反映④反省；</li>
-<li>flexible [ˈfleksəb(ə)l] a.①易弯曲的，有弹性；→②灵活</li>
-<li>flexibility [ˌfleksəˈbilədē] n. ①弹性，柔性②灵活性</li>
-<li>relation [rəˈlāSH(ə)n] n.①关系 ②亲戚</li>
-<li>relationship [rəˈlāSH(ə)nˌSHip] n.①(人或团体之间的关系)②(事物之间的)联系；</li>
-<li>relate [rəˈlāt] vi.①相同关系，有关系②认同，理解; vt.把...联系起来</li>
-<li>relative [ˈrelədiv] a.相对的(considered in relation to sb./sth. else) n.亲戚(=relation)</li>
-<li>relativity [ˌreləˈtivədē] n.相对论</li>
-<li>respond [rəˈspänd] vi. (to)回应，v.回答</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[for 循环]]></title>
-        <id>https://lisizero.github.io/post/for-xun-huan/</id>
-        <link href="https://lisizero.github.io/post/for-xun-huan/">
-        </link>
-        <updated>2021-12-25T07:59:15.000Z</updated>
-        <content type="html"><![CDATA[<p>在程序中，一组被重复执行的语句被称之为循环体， 能否继续重复执行，取决于循环的终止条件。由循环体及循环的终止条件组成的语句，被称之为循环语句。</p>
-<ol>
-<li>for 循环重复执行某些代码，  通常跟计数有关系</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Re解析 正则表达式]]></title>
-        <id>https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
-        <link href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
-        </link>
-        <updated>2021-12-18T11:39:01.000Z</updated>
-        <content type="html"><![CDATA[<p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
-<p>我们抓取到的网页源代码本质上就是一个超长的字符串，想从里面提取内容。用正则再适合不过了。</p>
-<p>正则的优点：速度快，效率高，准确性高<br>
-正则的缺点：新手上手难度有点儿高。</p>
-<p>不过只要掌握了正则编写的逻辑关系，写出一个提取页面内容的正则其实并不复杂</p>
-<p>正则的语法： 使用元字符进行排列组合用来匹配字符串 在线测试正则表达式:<br>
-https://tool.oschina.net/regex/</p>
-<p>元字符： 具有固定含意的特殊符号<br>
-常用元字符：</p>
-<ol>
-<li>
-<pre><code>  .          匹配除换行符以外的任意字符
-</code></pre>
-</li>
-<li>
-<pre><code>  \w       匹配字母或数字或下划线
-</code></pre>
-</li>
-<li>
-<pre><code>  \s         匹配任意的空白符
-</code></pre>
-</li>
-<li>
-<pre><code>  \d         匹配数字
-</code></pre>
-</li>
-<li>
-<pre><code>  \n         匹配一个换行符
-</code></pre>
-</li>
-<li>
-<pre><code>  \t          匹配一个制表符
-</code></pre>
-</li>
-<li>
-<pre><code>  1
-</code></pre>
-</li>
-<li>
-<pre><code>  ^          匹配字符串的开始
-</code></pre>
-</li>
-<li>
-<pre><code>  $          匹配字符串的结尾
-</code></pre>
-</li>
-<li>
-<pre><code> 1
-</code></pre>
-</li>
-<li>
-<pre><code> \W        匹配非字母或数字或下划线
-</code></pre>
-</li>
-<li>
-<pre><code> \D         匹配非数字
-</code></pre>
-</li>
-<li>
-<pre><code> \S         匹配非空白符
-</code></pre>
-</li>
-<li>
-<pre><code> alb        匹配字符a或字符b
-</code></pre>
-</li>
-<li>
-<pre><code> （）       匹配括号内的表达式，也表示一个组
-</code></pre>
-</li>
-<li>
-<pre><code> [. . .]        匹配字符组中的字符
-</code></pre>
-</li>
-<li>
-<pre><code> [^...]         匹配除了字符组中字符的所有字符
-</code></pre>
-</li>
-</ol>
-<p>量词： 控制前面的元字符出现的次数</p>
-<ol>
-<li>
-<ul>
-<li>
-<pre><code>        重复零次或更多次
-</code></pre>
-</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<pre><code>       重复一次或更多次
-</code></pre>
-</li>
-</ul>
-</li>
-<li>？           重复零次或一次</li>
-<li>{n}          重复n次</li>
-<li>{n,}         重复n次或更多次</li>
-<li>{n,m}        重复n到m次</li>
-</ol>
-<p>贪婪匹配和惰性匹配</p>
-<ol>
-<li>.*           贪婪匹配</li>
-<li>，*？      惰性匹配<br>
-这两个要着重的说一下。因为我们写爬虫用的最多的就是这个惰性匹配</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP 协议]]></title>
-        <id>https://lisizero.github.io/post/http-xie-yi/</id>
-        <link href="https://lisizero.github.io/post/http-xie-yi/">
-        </link>
-        <updated>2021-12-17T16:10:46.000Z</updated>
-        <content type="html"><![CDATA[<p>协议： 就是两个计算机之间为了能够流畅的进行沟通而设置的一个君子协定。 常见的协议有TCP/IP. SOAP协议，HTTP协议，SMTP协议等等......</p>
-<p>HTTP协议，Hyper Text Transfer Protocol (超文本传输协议) 的缩写，是用于从万维网 (WWW:World Wide Web) 服务器传输超文本到本地浏览器的传送协议。 直白点儿，就是浏览器和服务器之间的数据交互遵守的就是HTTP协议。</p>
-<p>HTTP协议把消息分为三大块内容。 无论是请求还是相应都是三块内容</p>
-<p>请求：</p>
-<ol>
-<li>请求行 → 请求方式 (get/post) 请求url地址 协议</li>
-<li>请求头 → 放一些服务器要使用的附加信息</li>
-<li></li>
-<li>请求体 → 一般放一些请求参数</li>
-</ol>
-<p>响应：</p>
-<ol>
-<li>状态行 → 协议 状态码</li>
-<li>响应头 → 放一些客户端要使用的一些附加信息</li>
-<li></li>
-<li>响应体 → 服务器返回的真正客户端要用的内容(HTML , json)等</li>
-</ol>
-<p>请求头中最常见的一些重要内容(爬虫需要)：</p>
-<ol>
-<li>User-Agent : 请求载体的身份标识(用啥发送的请求)</li>
-<li>Referer: 防盗链(这次请求是从哪个页面来的？ 反爬会用到)</li>
-<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
-</ol>
-<p>响应头中一些重要的内容：</p>
-<ol>
-<li>cookie: 本地字符串数据信息(用户登录信息，反爬的token)</li>
-<li>各种神奇的莫名奇妙的字符串(这个需要经验了，一般都是token字样，防止各种攻击和反爬)</li>
-</ol>
-<p>请求方式 ：</p>
-<pre><code>GET: 显示提交
-POST: 隐式提交
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[英语1.1]]></title>
-        <id>https://lisizero.github.io/post/ying-yu-11/</id>
-        <link href="https://lisizero.github.io/post/ying-yu-11/">
-        </link>
-        <updated>2021-12-16T04:45:49.000Z</updated>
-        <content type="html"><![CDATA[<p>A Question of Rights 一项权利问题<br>
-Unfortunately , a crime was about to be committed but at that moment Lesley was unaware of the impending event , which would affect her life so drastically for the next years .<br>
-一项犯罪就要得逞了。而不幸的是，就在那时，莱斯利对即将发生的事毫无察觉。这件事将彻底改变她此后两年的生活。<br>
-For the moment at least, her holiday at the cottage had been ideal. She had spent many idle hours relaxing on the deck , reading ,eating a sandwich when she was hungry and in the evening watching the sky turn from brilliant orange to peach and finally to pale purple , eventually the light becoming dim . It was about this time that the mist would begin to rise from the cool water hiding in the dense forest that hugged the shoreline. Late evening dew glistened on every bush and soon the loons'call would resound  across the water . She decided to take on last dip in the lake. As the cool night air touched her arms. She gave a little shiver and decided it was time to move inside.<br>
-至少在那个时候，她在小别墅的假期还是很惬意的。她在平台上度过了很多闲适轻松的时光，读书、饿了吃块三明治;晚上，看着天空由鲜橙色变为桃红色，然后变为淡紫色，最后光线终于黯淡下来。就在这时，薄雾开始从隐藏在环绕岸边的密林里的冷水中升起;再晚些，灌木上的露珠开始闪烁，不久，潜水鸟的叫声就会在水面上回荡起来。她决定在湖里最后再泡一会儿。当她的手臂触到夜晚凉爽的空气时，不禁有些发抖，于是她决定该是回到屋里去的时候了。<br>
-This was to be her last evening alone as Jeff, her former mate, would be returning Zac to her early in the morning. As the case in many marriages these days, problems had arisen between Lesley and Jeff, but they did not extend to Zac. He was a good kid, just entering kindergarten. The couple had come to a mutual agreement , as dictated by the legal custody agreement .It stated that each parent would share Zac's care every second weekend and this had been her weekend to be alone.<br>
-这是她在家中独处的最后一个晚上，因为她的前夫杰夫会在早上把扎克送回来。与当时许多婚姻情况一样，莱斯利和杰夫之间出现了许多问题，但并未影响到扎克。他是个好孩子，刚刚上幼儿园。他们达成了一个依法监护的协议，协议规定双亲每两个周末轮换照顾孩子，这是她独处的周末。<br>
-Jeff was an architect, with a high-profile reputation, who worked in downtown Toronto, a partner in a private corporation which mostly did consultant work for the university. Lesley’s company had been hired to advertise the new science complex in order to raise corporate money for the proposed building. She liked her work and she harbored a secret ambition to manage her division of the company some day.<br>
-杰夫是个建筑师，名声很大，在多伦多市区工作，是一家私人公司的合伙人，该公司主要为大学做咨询工作。莱斯利的公司已经接下了为新的科学综合大楼做广告的工作，以便为计划中的大楼筹集合作基金。她喜欢她的工作，并且心怀抱负：有一天她要管理这个部门。<br>
-After a whirlwind courtship and a fairytale wedding the couple had settled down to an urban lifestyle. However, after three years and one child the dreamlike marriage came smashing down. One disadvantage of being young and ambitious was that both of them needed to devote untold hours to their busy schedules. As a result of these late hours, Lesley became suspicious of Jeff’s after hours activities. She accused him of making her part of a love triangle. The whole miserable scene was to set the proceedings for an ugly divorce in motion.<br>
-在一段旋风般的热恋和一个童话式的婚礼之后，夫妻俩定居下来，过起了都市生活。然而，在过了三年并有了孩子之后，这段梦幻般的婚姻开始破裂了。年轻而又雄心勃勃的不利之处，就是两个人都要把数不清的时间花在忙不完的事业上。由于经常工作到很晚，莱斯利开始怀疑杰夫工作之余的活动，她指责他让她成了三角爱情的一部分。事情发展到最痛苦的场面就是提出不愉快的离婚诉讼。<br>
-Daydreaming about those earlier days would not help tonight. So with a shrug of her shoulders she tackled the advertising assignment she needed to complete. Tomorrow would be a busy day with Zac arriving home.<br>
-那些对最初美好时光的回忆，对今夜也无济于事。于是，她耸了耸肩，着手处理她必须完成的广告业务。明天扎克到家后将会非常忙碌。<br>
-The next day, as the morning wore on, Lesley became more and more agitated, and her mood became apprehensive, when Jeff did not appear. When noon hour arrived and he still had not appeared, she started making some phone calls. None of their mutual friends had either seen or talked with Jeff that day. Until today, Jeff had always been very punctual about returning the boy at the appointed time. Lesley felt a knot forming in her stomach as a crazy thought persisted at the back of her mind. She was absolutely sure something was wrong.<br>
-第二天，随着上午的时间慢慢逝去，莱斯利越来越感到不安。杰夫没有出现，她变得焦躁起来。到了中午，他还没出现，于是她开始打电话。他们共同的朋友都说那天没看见他，也没和他通过电话。以前，杰夫总是非常准时地将孩子送回来。一种不祥的想法在下意识地困扰着她，莱斯利感到恐惧。她绝对肯定是出事了。<br>
-Jeff sat with his head bowed. He was undecided what to do. The domestic arrangement with his former wife was proving to be awkward. He was frustrated at being able to see his son only on weekends and felt he was always making concessions to accommodate(适应,迁就) Lesley’s work schedule. Every meeting was turning into a competition for the boy’s affection. His one desire was to take Zac away for good. The enormous decision to undertake this plan appeared to be presenting itself. Today he would depart for a conference in California. This appeared to be a marvelous opportunity to take the boy and leave the country for good. He bet that he could pack sufficient baggage into his vehicle and then disappears across the border, gaining entry the U.S.A. He gave little thought to whatsoever of the fact this act could lead to his conviction if he was tracked down by the cops.<br>
-杰夫低头坐着，他不知该做些什么。和前妻商定的对家庭的安排看来是蠢笨的，只能在周末看看儿子令他沮丧极了。为了莱斯利的工作安排，他觉得一直在迁就。每次相见都变成一场争夺“孩子到底爱谁”的竞争。他有一个心愿就是把扎克永远带走，现在就应做出实施这个计划的重大决定了。今天，他要前往加利福尼亚参加一个会议，这显然是一个带走孩子，永远离开这个国家的绝好机会。他确信他能够把足够多的行李装上车，然后跨过边境，进入美国后就消失掉。如果被警察抓住，这种行为是可以构成犯罪的，可他不再多想了。<br>
-Meanwhile, for Lesley the nightmare continued to unfold as the reality of the situation deepened. After 48 hours, the spokesman for the district police department assured her they would investigate Zac’s disappearance. Her faith that justice would be realized was faint. The shock of the past two days’ events made her realize that possibly her son would become one more statistic in the missing children file. The police completed a preliminary survey after asking hundreds of detailed questions. Hot lines proved fruitless.<br>
-与此同时，对于莱斯利，随着事件真相的不断深入，噩梦也在继续显现。48小时后，地区警察部门发言人向她保证，他们将对扎克的失踪展开调查。她对正义会得到伸张的信心减弱了。最近两天发生的事使她认识到，他的儿子很可能成为失踪儿童名单中增加的又一个新数字。在询问了许许多多的细节问题之后，警察完成了初步调查。热线电话丝毫没有结果。<br>
-Meanwhile, over the next year there were countless visits and interviews at the police station and her home. The police appeared to be making no progress in tracking Zac’s whereabouts. As the days passed, Lesley’s frustration mounted and she felt a sense of alarm. Eventually, she decided to take the initiative in continuing the search and she began to use well-established child find agencies. At times, boosted by hopes, she appeared to be on the right trail with a sense of disgust, but her hopes were dashed at the final moment. These obstacles hope. After Zac’s picture was circulated nationwide, telephone calls followed from strangers reporting sightings of a Zac look alike. Month by month her plan evolved into a campaign equal to a full-scale battle plan. She paid an exceedingly high fee for specialized help, such as the services of an attorney. Lesley became determined to target every major city where Jeff normally contracted business. As the months slopped by, Lesley’s exhaustion became noticeable in her eyes. Her cheeks became hollow pits. Most days she felt as though she did not have an ounce of energy left because proof of Zac’s existence seemed impossible to find.<br>
-在接下来的一年多时间里，她在警察局和家中接受了无数次的访问和会见。在寻找礼物的下落上，警察似乎并没有取得什么进展。时间一天天地过去，莱斯利感到日益失望，她有一种恐慌的感觉。终于，她决定要争取主动，继续找寻，她开始求助于专门的儿童寻找机构。有时，尽管感到有些厌烦，由于希望的驱使，她还是加入到搜寻线索的行列，但她的希望都在最后时刻破灭了。这些挫折只会令她更坚定不放弃寻找或不丧失希望的决心。扎克的照片在全国传阅，不断有陌生人打来电话，报告说看见了像扎克模样了人。一月又一月，她参与活动的计划安排相当于一场大规模的战役部署。她出高薪请专家帮忙，例如聘请代理人为她服务。莱斯利开始决定在杰夫平日联系生意的每一个主要城市去寻找目标。几个月过去了，从莱斯利的眼里，可以明显感觉到她的确精疲力竭了。她的脸颊深深地凹了下去。大多数日子里，她觉得好像一点儿精力也没有了，因为证明扎克还在的证据看来是不可能找到了。<br>
-Another year passed and her hopes dimmed. Unexpectedly, late in August a promising lead brought her to Los Angeles.<br>
-又一年过去了，她的希望变得更加渺茫。但出乎意料，八月底，一个很有希望的线索把她带到洛杉矶。<br>
-The interior of the bar was dark. Her quest to locate Jeff and Zac had taken two years. She had paid private investigators in American currency to help her locate her ex-husband. In her handbag she carried the necessary proof that would identify her to the authorities if she was successful in being able to bring Zac home again, to Canada. She had been impatient for this moment to arrive for so long and yet now she just wanted to secure her son with a minimum of fuss. Now, right on cue, a tall stranger slipped into the bar and sat down. One glimpse told her it was Jeff. He looked weary and older but definitely familiar. A chill ran up her spine. Close to success, she refused to concede defeat. It was the time to remedy the enormous sadness. This time she wanted a guarantee of success. She stared straight ahead with a vacant look, trying to grasp the important moment. Vivid scenes, from the pass two years’ search, flashed through her mind.<br>
-酒吧里面很暗。追寻杰夫和扎克和下落已经花了她现年时间。她付费给在美国的私家侦察机构，帮她查找前夫的下落。在她的手提包里，有可以向当局证明的必要材料，一旦成功，她就可以将扎克带回家，回到加拿大。她焦急地等待着这一刻的到来已经很久了，而现在她只想找回她的儿子，发行量不要出什么乱子。就在这个时候，一个高个的陌生人溜进酒吧坐下来。她一眼就认出那是杰夫。他看起来很疲惫，显得更苍老了，但还是相当熟悉。一阵寒气掠过她的背脊。马上就要成功了!她拒绝承认失败，这正是治疗巨大伤痛的时刻。这次，她要确保成功。她带着迷茫的神情凝视着前方，努力要抓住这重要的时刻。过去两年的搜寻情景，一幕幕清晰地在她的脑海中闪现。<br>
-The following day, happily for Lesley, the headline of the local paper read, “Father turns over child, Mother slams system.”<br>
-翌日，使莱斯利感到高兴的是当地报纸的头条新闻：“父亲将孩子送回，母亲猛烈抨击体制”。<br>
-Lesley and Zac’s subsequent life could now resume some form of normalcy, however, the stress and strain of the past two years would always remain as a part of this renewed relationship in the memory.<br>
-至于莱斯利和扎克后来的生活，现在可能恢复到某种正常状态了。然而，过去两年的压力和紧张将成为这种重新恢复起来的关系中的一部分，永远留在记忆里。</p>
-<p>One Chance 一次机会<br>
-The tiny antique silver pin lay in my hand. I stared hard at the solemn face looking back at me from the oval frame. I was looking for some resemblance between my ancestor and myself. Her brow was broad and strong, the eyes kind and forgiving. She wore a stiff black bonnet, a high white collar and a coarsely woven shawl around her shoulders. In examining her face more closely, maybe I could identify some similarity around the eyes and the nose. An inner strength shone from the eyes of this diminutive lady who had helped lead her family from Ireland to the New World.<br>
-那枚小小的旧银别针就放在我的手上。我紧盯着那张从椭圆形镜框里反过来看着我的严肃面孔。我在寻找我的祖先和我自己之间的某些相似之处。她的眉毛宽大浓密，眼睛里温和慈祥。她戴着一顶绷紧的黑色软帽，高白领，肩上披着一条做工粗糙的披肩。再近点观察她的脸孔，或许我能在眼睛和鼻子周围辨认出一些相似的地方。从这位身材矮小的女士的眼里，透射出一种内在的力量，她曾帮助和带领她的家庭，从爱尔兰来到了新世界。<br>
-The times, in Ireland during the 1770’s, were difficult for everyone. John and Lily Love and all the tenants of the Barren’s Court Estate were suffering after terrible floods destroyed their crops. The landlord was generous in allowing the land rent to fall into arrears, due to the difficult times. However, as weather conditions continued to worsen, the little family became pessimistic and felt desperate about the direction of their lives. Nearly every family at this time had at least one member of their family who had left for the New World. The ugly face of famine was lurking everywhere. It was not possible with one acre of arable land to make a living.<br>
-那时候，在18世纪70年代的爱尔兰，人人处境艰难。一场特大洪水毁掉了他们的庄稼之后，约翰和莉莉·洛夫一家像其他所有的巴伦斯宫廷庄园的佃户一样痛苦不堪。庄园主还算慷慨，鉴于这个艰难时期，允许佃户们拖欠租金。然而，天气状况持续恶化，这个小家庭变得悲观起来，对他们的生活前途感到绝望。那个时候，几乎每个家庭至少有一名家庭成员出走前往新世界。饱受饥荒之苦的憔悴面容到处都是，要靠一英亩耕地生活是不可能的。<br>
-Late one night, after the children were in bed, John and Lily discussed the possibility of making a reservation aboard a sailing ship bound for America. John had noticed a poster in the town square, that posted by a ship’s owner trying to recruit people for his ship. John knew that conditions aboard ship would not be ideal for Lily, her new infant son and the two elder boys; however, she acknowledged that settling in America would be the only way for the family to gain some independence and to earn a living. More importantly, it was rumored that land was free in the new country. Lily gave her consent to leave.<br>
-一天夜里，孩子们入睡以后，约翰和莉莉讨论起预定船只前往美国的可能性。就在当天，约翰在市镇广场上看到一张海报，是船主张贴出来招揽乘客的。约翰知道船上的条件对莉莉不大合适，她有一个刚出生的婴儿和两个大点的男孩。但是，她认为在美国定居将是这个家庭取得独立和谋生的唯一出路。更重要的是，据说在那个新国家土地是免费的。莉莉也赞成出去。<br>
-In port, the sailing ship, Hannah, under the command of Captain Mitchell lay at anchor. The adventure of crossing the Atlantic Ocean bound for Philadelphia would take two to three months. Passengers were assured there would be the best provisions and plenty of barrels of fresh water. Storms could be fierce and living conditions below deck would be primitive. John joined the long queue and eventually after a lengthy wait, reached the revenue table. He affixed his signature to the contract promising to pay five pounds per person for berths aboard ship. The clerk returned the receipt to John indicating that the sum of money had been paid.<br>
-在港口，那艘帆船“汉纳”号，在米切尔船长的指挥下，正抛锚停泊。跨越大西洋前往费城的冒险要花两到三个月。乘客们被许诺有最好的食品供应和充足的淡水。暴风雨可能很猛烈，甲板下面的生活条件将是很单调的。约翰加入到了那长长的队列里，等了很久以后，终于来到付款台前。他在合同上签了字，按要求为乘坐那艘船的每个人付5英镑。办事员为约翰开了收据，表示钱已付清。<br>
-Once under sail the three hundred passengers found themselves crowded into miserable conditions. The smell of so many people crowded together was offensive. The breadth of the vessel was narrow and the headroom below deck minimal.<br>
-可是一上船，三百名乘客发现船上非常拥挤，条件很恶劣。这么多人挤在一起，气味简直让人受不了。船舱狭窄又很低矮。<br>
-As the tiny craft sailed out of Lough Foyle, and entered the Atlantic Ocean, it started to roll ominously and those aboard wondered if they would survive the long voyage ahead or be swallowed up by the enormous waves. Seasickness was everywhere and people had no appetite. The food, instead of being of high quality as promised, was too often rotten and the water was brackish.<br>
-小船驶离洛夫福伊进入大西洋的时候，就开始不祥地摇晃起来，船上的人担心他们是否能够安全完成航程还是会被巨浪吞噬。到处都是晕船的，人们没有食欲。伙食没有承诺的那么好，还常常是腐烂的，水也有咸味。<br>
-Eventually, the winds lessened and the Captain was able to set his sights towards America and become ably steering the ship on an even course. Eight weeks later, plus on day, the Hannah made landfall and the Love family disembarked in America and became American newest immigrants. Gazing at the mainland after so many days of sailing was indeed a glorious sight. The difficult days aboard ship seemed worthwhile. Porters hurried along the docks pushing baggage. Little girls with ribbons in their hair scanned the ship’s decks hoping to get a first glimpse of their father arriving. It seemed to Lily that it took forever to register and to pass through immigration.<br>
-终于风浪减弱了，船长能够看准美国的方向，成功地驾船工行驶在平静的航线上。八个星期零一天之后，“汉纳”号靠岸，洛夫一家在美国登陆，成为美国最早的移民。经过这么多天的航行，凝视着这片大地，的确令人心旷神怡。看来在船上过的那些艰苦的日子还是值得的。码头上的搬运工在忙着搬运行李。头发上带着丝带的小姑娘们环视着甲板，希望第一眼看到他们到来的父亲。对于莉莉来说，登记和办理移民手续好像没完没了。<br>
-John said that he would go ahead to scout out some land in the far west of the state. He would push on to the frontier with a bunch of other Irish chaps. Lily and the children could follow more slowly, harnessing the horse and cart to convey their scanty possessions. The stuff in the cart would include a kettle, dishes, blankets, a chair, a bucket and an axe.<br>
-约翰说他要先出发，在这个州遥远的西部找一些土地。他和一帮爱尔兰小伙子一起赶往边疆。莉莉和孩子们可以在后面慢慢地跟，坐马车把他们仅有的一点家产运来。车上的那些东西包括一个壶、一个盘子、毯子、一把椅子、一个提桶和一把斧头。<br>
-There was a perception by the government at this time that the feisty Irish would resist any hostile natives refusing to retreat and thus maintaining the western boundary. The Irish, too, were pleased to settle as far away from the government as possible. Instead of purchasing land, they would “squat” on the property erecting only a temporary, humble shelter to stave off the weather. Once their families arrived, they would inspire the men to build proper cabins. Neither fancy nor elegant, these log structures would be their first real homes. Property boundaries at this time were not marked out with iron rods or stakes in a standard fashion, but rather designated by natural objects such as rocks, trees and creeks. Confusion and disputes must often have followed later, when these survey points disappeared.<br>
-After exploring the area around Shirley’s burg, John and his sons rode over Sandy Ridge to survey the property below Black Log Mountain. It was here in a long narrow valley they decided to settle. The valley became known then, and is still called Love’s valley today.<br>
-那时候，政府认为，好斗的爱尔兰人会抵抗那些有敌意的当地人，拒绝妥协让步，以保住西部边疆。而爱尔兰人也乐得尽量远离政府定居。不需要购买，他们只要支起一个能遮蔽风雨的临时简陋住所，就算占用了这片土地。一旦家人到达，他们会鼓励男人们建造合适的房屋。既不奇特也不优雅，这些原木结构的建筑物将是他们第一个真正的家。那时，地产边界不是用标准的铁棍或木桩来做标志，而是用象岩石、树木和小溪等自然物来界定。后来因为这些测量点消失了，混乱和争执时常发生。<br>
-At the time, drums were used to forewarn that the natives were going to capture the forts, which guarded the western frontier. Daily life in this new land, for the early settlers, was harsh and difficult. First they needed to tame the land, chopping down trees, in order to be able to plant crops. At times they needed to defend their land and be wary of attacks from wild animals, such as wolves and bears. Mosquito bites caused severe reactions of swelling and itchiness. Once the work was done, neighbors would gather for an occasional social function. The children would play for hours chasing butterflies and looking for birds’ nests. The boys would catch frogs and then tease the girls with them. There would be a delicious picnic lunch spread on the grass. John asked Lily to bring some freshly squeezed lemon juice for the picnic. He found the sour taste of lemonade was refreshing on a hot summer’s day. Some of the men would have a drink of homemade in the moonshine before striking up a tune on the fiddle. Square dancing was popular among the young people and the young lads would leap up to dance with the eligible young ladies. Rivals for a young lady’s hand in marriage would tend to compete to walk her home at the end of an evening. The romantic times were few and contrasted sharply with the stern reality of everyday life.<br>
-在探究了歇里斯伯格周围的地区之后，约翰和他的儿子们翻过桑迪山脉，在布莱克拉格山下面勘察了土地，他们决定就在这条狭长的山谷里定居下来。因此这个山谷被称为洛夫山谷，直到今天还这样叫。<br>
-那时候，当土著人来夺取防护西部边界的那些城堡时，他们就使用鼓声作为预先的示警。在这块新土地上的日常生活对于早期的定居者来说是非常艰辛和困苦的。首先，他们需要开垦土地，砍倒树木，以便能够种上庄稼。有时，他们需要保卫他们的土地，提防狼和熊等野兽的攻击以及蚊子叮咬造成的肿痛和奇痒。干完活后，邻居们偶尔会聚在一起举行社交活动。孩子们会玩上好几个小时，去捕蝴蝶，掏鸟窝，男孩子们会逮青蛙去捉弄女孩们，还有布置在草地上的美味午餐。约翰叫莉莉为野餐带去一些鲜榨柠檬汁，他发现柠檬的酸味在炎热的夏天令人清爽，使人振奋。月光下，有的人还会来一杯自家酿的酒，然后便趁兴用小提琴拉上一曲。青年人中很流行方块舞，年轻的小伙子们就会跳出来与中意的姑娘们一起跳舞。晚上，向姑娘们求婚的竞争对手们往往会竞相来到她们的家里。浪漫的时候虽然很少，但却和每天严酷的现实生活形成鲜明的对照。<br>
-Neighbors were also few and Lily found she was very lonely. She looked forward to the occasional visits of the minister, Robert Ayers, who was a Methodist circuit rider. Meetings would be held in fields or small barns, three to four times a year. At other times neighbor women from over the mountain would meet to make quilts, blankets and cushions and to gossip about their respective lives. They would share their secret fears regarding their new lives, their hopes for their children’s future and enjoy each other’s companionship.<br>
-邻居也很少，莉莉觉得孤独。她盼望着卫理公会教派骑马巡回的罗伯特?埃亚牧师的偶然造访。一年有三、四次在田地里或小库房进行集会。另外，有时候，翻山过来的邻家妇女会聚在一起做被子，织地毯和垫子，聊聊各自生活中的琐事。他们分担着对新生活的暗自担心，对孩子前程的殷切期望，并为相互间的友谊高兴不已。<br>
-Twenty years slipped by and John Love died at the early age of 47. Several years later, son James and his family, as well as widow Lily, his Mother, made the decision to leave Pennsylvania and settle in Canada. They made the arduous trek over Indian trails, crossing the Niagara River to settle in what we now call Ontario.<br>
-20年过去了，约翰洛夫在47岁时就过早地去世了。几年后，儿子詹姆斯和他的家庭，还有他的母亲——寡妇莉莉，决定离开宾夕法尼亚到加拿大定居。他们经过艰难跋涉，沿着印第安人的足迹，渡过尼亚加拉河，在今天我们称之为安大略的地方定居下来。<br>
-I am a Canadian. Having traced my roots and followed in the footsteps of these early settlers, I feel a sense of gratitude to my ancestors who faced extreme difficulties and severe hardship to settle in a new land. Liberty, then and in today’s world, is a priceless inheritance.<br>
-Once more, I glanced at the silver pin before returning it to the velvet box. Once again, I questioned, “What did I inherit from my Love ancestors?” I realize the answer has been revealed while writing this story. I have determination, strength, loyalty and a love of adventure. This is my inheritance.<br>
-我是加拿大人。追根溯源，沿着这些早期移民的足迹，一种感激之情油然而生。我的祖先们面对艰难困苦，克服重重困难才在这片土地上定居下来。不论那时还是现在，自由都是宝贵的遗产。在把那枚银别针放回丝绒盒之前，我又看了它一眼。我再次问到：“我从洛夫祖先那里继承了什么呢?”在写这个故事的时候，我知道我有了答案。我所拥有的决心、力量、忠诚和对冒险的热爱就是我继承到的遗产。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[动画]]></title>
-        <id>https://lisizero.github.io/post/dong-hua/</id>
-        <link href="https://lisizero.github.io/post/dong-hua/">
-        </link>
-        <updated>2021-11-08T13:41:38.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lisizero.github.io//post-images/1636378907163.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[品优购]]></title>
-        <id>https://lisizero.github.io/post/pin-you-gou/</id>
-        <link href="https://lisizero.github.io/post/pin-you-gou/">
-        </link>
-        <updated>2021-10-30T02:48:08.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://lisizero.github.io//post-images/1635562100526.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635572079423.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635572252430.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1638958631307.png" alt="" loading="lazy"><br>
-<img src="https://lisizero.github.io//post-images/1635593628458.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-</feed>
+
+        </div>
+
+        
+
+
+        <div class="flex justify-between py-8">
+          
+
+          
+            <div class="next-post">
+              <a href="https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/">
+                <h3 class="post-title">
+                  语法题应试技巧
+                  <i class="ri-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+
+        
+
+      </div>
+    </div>
+
+    <script src="https://lisizero.github.io//media/prism.js"></script>  
+<script>
+
+Prism.highlightAll()
+let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+
+  mainNavLinks.forEach((link, index) => {
+    let section = document.getElementById(decodeURI(link.hash).substring(1));
+    let nextSection = null
+    if (mainNavLinks[index + 1]) {
+      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+    }
+    if (section.offsetTop <= fromTop) {
+      if (nextSection) {
+        if (nextSection.offsetTop > fromTop) {
+          link.classList.add("current");
+        } else {
+          link.classList.remove("current");    
+        }
+      } else {
+        link.classList.add("current");
+      }
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target
+          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
+          lazyImage.classList.remove("lazy")
+          lazyImageObserver.unobserve(lazyImage)
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage)
+    })
+  } else {
+    // Possibly fall back to a more compatible method here
+  }
+});
+
+const menuContainer = document.querySelector('.menu-container')
+const menus = document.querySelectorAll('.menu-container .menu')
+const mask = document.querySelector('.mask')
+const contentWrapper = document.querySelector('.content-wrapper')
+const latestArticle = document.querySelector('.latest-article')
+const readMore = document.querySelector('.read-more')
+const indexPage = document.querySelector('.index-page')
+
+const isHome = location.pathname === '/'
+if (latestArticle) {
+  latestArticle.style.display = isHome ? 'block' : 'none'
+  readMore.style.display = isHome ? 'block' : 'none'
+  indexPage.style.display = isHome ? 'none' : 'block'
+}
+
+const openMenu = () => {
+  menuContainer.classList.add('open')
+  menus.forEach(menu => {
+    menu.classList.add('animated', 'fadeInLeft')
+  })
+  mask.classList.add('open')
+  contentWrapper.classList.add('is-second')
+}
+
+const closeMenu = () => {
+  menuContainer.classList.remove('open')
+  menus.forEach(menu => {
+    menu.classList.remove('animated', 'fadeInLeft')
+  })
+  mask.classList.remove('open')
+  contentWrapper.classList.remove('is-second')
+}
+</script>
+  
+  </body>
+</html>
