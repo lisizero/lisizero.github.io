@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2022-01-13T07:48:30.136Z</updated>
+    <updated>2022-01-13T10:12:45.804Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://lisizero.github.io/"/>
+    <link rel="self" href="https://lisizero.github.io/atom.xml"/>
     <subtitle>最短的捷径就是绕远路</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://lisizero.github.io/images/avatar.png</logo>
+    <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[语法1]]></title>
-        <id>http://localhost:4000/post/yu-fa-1/</id>
-        <link href="http://localhost:4000/post/yu-fa-1/">
+        <title type="html"><![CDATA[句子构成]]></title>
+        <id>https://lisizero.github.io/post/yu-fa-1/</id>
+        <link href="https://lisizero.github.io/post/yu-fa-1/">
         </link>
         <updated>2022-01-08T18:14:11.000Z</updated>
         <content type="html"><![CDATA[<p>造句需要两个条件：1，一个句子由**<u>几个部分构成</u><strong>。2，这些</strong><u>构成句子的各个部分的顺序或者位置</u>**。</p>
@@ -66,8 +66,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[打卡2022.1.8]]></title>
-        <id>http://localhost:4000/post/da-qia-202212/</id>
-        <link href="http://localhost:4000/post/da-qia-202212/">
+        <id>https://lisizero.github.io/post/da-qia-202212/</id>
+        <link href="https://lisizero.github.io/post/da-qia-202212/">
         </link>
         <updated>2022-01-01T16:01:30.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -120,8 +120,8 @@ corresponding [ˌkɒrəˈspɒndɪŋ] a.①相应的②相符合的</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机网络原理（二）]]></title>
-        <id>http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li-er/</id>
-        <link href="http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li-er/">
+        <id>https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li-er/</id>
+        <link href="https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li-er/">
         </link>
         <updated>2022-01-01T08:07:39.000Z</updated>
         <content type="html"><![CDATA[<p>26.会话层（进程、对话）：进程—进程的层次。负责在两个会话层实体之间进行对话连接的建立和拆除。<br>
@@ -154,8 +154,8 @@ corresponding [ˌkɒrəˈspɒndɪŋ] a.①相应的②相符合的</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机网络原理（一）]]></title>
-        <id>http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li/</id>
-        <link href="http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li/">
+        <id>https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li/</id>
+        <link href="https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li/">
         </link>
         <updated>2022-01-01T07:57:20.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -196,8 +196,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机系统结构]]></title>
-        <id>http://localhost:4000/post/ji-suan-ji-xi-tong-jie-gou/</id>
-        <link href="http://localhost:4000/post/ji-suan-ji-xi-tong-jie-gou/">
+        <id>https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/</id>
+        <link href="https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/">
         </link>
         <updated>2022-01-01T07:08:41.000Z</updated>
         <content type="html"><![CDATA[<p>1计算机系统的多级层次结构, , 1：M0微程序（微指令）机器、2：M1传统（机器指令）机器、3：M2操作系统（作业控制）机器、4：M3汇编语言机器、5：M4高级语言机器、6：M5应用语言机器；1-2为实际机器，3-6为虚拟机器<br>
@@ -574,8 +574,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[语法题应试技巧]]></title>
-        <id>http://localhost:4000/post/yu-fa-ti-ying-shi-ji-qiao/</id>
-        <link href="http://localhost:4000/post/yu-fa-ti-ying-shi-ji-qiao/">
+        <id>https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/</id>
+        <link href="https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/">
         </link>
         <updated>2022-01-01T05:46:04.000Z</updated>
         <content type="html"><![CDATA[<p>（一） 一般现在时</p>
@@ -658,8 +658,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[技巧]]></title>
-        <id>http://localhost:4000/post/ji-qiao/</id>
-        <link href="http://localhost:4000/post/ji-qiao/">
+        <id>https://lisizero.github.io/post/ji-qiao/</id>
+        <link href="https://lisizero.github.io/post/ji-qiao/">
         </link>
         <updated>2022-01-01T05:38:36.000Z</updated>
         <content type="html"><![CDATA[<p>读中</p>
@@ -675,8 +675,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[打卡2022.1.1]]></title>
-        <id>http://localhost:4000/post/da-qia-202011/</id>
-        <link href="http://localhost:4000/post/da-qia-202011/">
+        <id>https://lisizero.github.io/post/da-qia-202011/</id>
+        <link href="https://lisizero.github.io/post/da-qia-202011/">
         </link>
         <updated>2022-01-01T04:56:19.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -705,8 +705,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[for 循环]]></title>
-        <id>http://localhost:4000/post/for-xun-huan/</id>
-        <link href="http://localhost:4000/post/for-xun-huan/">
+        <id>https://lisizero.github.io/post/for-xun-huan/</id>
+        <link href="https://lisizero.github.io/post/for-xun-huan/">
         </link>
         <updated>2021-12-25T07:59:15.000Z</updated>
         <content type="html"><![CDATA[<p>在程序中，一组被重复执行的语句被称之为循环体， 能否继续重复执行，取决于循环的终止条件。由循环体及循环的终止条件组成的语句，被称之为循环语句。</p>
@@ -717,8 +717,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[Re解析 正则表达式]]></title>
-        <id>http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
-        <link href="http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/">
+        <id>https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
+        <link href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
         </link>
         <updated>2021-12-18T11:39:01.000Z</updated>
         <content type="html"><![CDATA[<p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
