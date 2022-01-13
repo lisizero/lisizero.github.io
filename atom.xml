@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lisizero.github.io/</id>
+    <id>http://localhost:4000</id>
     <title>Gridea</title>
-    <updated>2022-01-08T19:33:02.222Z</updated>
+    <updated>2022-01-13T07:48:30.136Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lisizero.github.io/"/>
-    <link rel="self" href="https://lisizero.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>最短的捷径就是绕远路</subtitle>
-    <logo>https://lisizero.github.io/images/avatar.png</logo>
-    <icon>https://lisizero.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[语法1]]></title>
-        <id>https://lisizero.github.io/post/yu-fa-1/</id>
-        <link href="https://lisizero.github.io/post/yu-fa-1/">
+        <id>http://localhost:4000/post/yu-fa-1/</id>
+        <link href="http://localhost:4000/post/yu-fa-1/">
         </link>
         <updated>2022-01-08T18:14:11.000Z</updated>
         <content type="html"><![CDATA[<p>造句需要两个条件：1，一个句子由**<u>几个部分构成</u><strong>。2，这些</strong><u>构成句子的各个部分的顺序或者位置</u>**。</p>
@@ -33,12 +33,41 @@
 <p>​	（2）人称代词/指示代词</p>
 <p>​		代词就是为了**<u>避免重复而代替名词的词语</u>**。生活中使用代词的频率非常高，因为我们不能老是重复相同的名词。比如，我们不会说，“Nick is a teacher. Nick is from Guangxi . Nick teaches English in Guangdong.”，连续用了三个名词 “ Nick ”，这样就变得重复啰嗦了。应该用一个代词代替 Nick 。所以应该说，“Nick is a teacher. He is from Guangxi. He teaches English in Guangdong.”</p>
 <p>​		<strong>代替<u>人的代词</u>就叫<u>人称代词</u>（有些<u>人称代词</u>也可以指代<u>事物</u>）</strong>。上面例句的 “ He ” 代替了人 “ Nick ”，所以 “ He ”就是一个人称代词。实际上，绝大部分的代词都可以作为主语。 英语代词的使用频率比中文要高，因为英语不喜欢重复，甚至不能容忍重复。这里主要通过比较简单的人称代词和指示代词来说明一下代词作主语的情况。人称代词又分为**<u>主格</u><strong>和</strong><u>宾格</u>**。主格就是作主语的格式，宾格就是作宾语的格式。主格和宾格都是指同一个意思，只是作用不同，这点跟中文不一样。人称代词的主格只有：“I (我)、we （我们）、you (你，你们)、she (她)、he ( 他 )、it (它)、they (他们，她们，它们)”。主格才可以作主语，宾格不可以，请看例句：</p>
+<p>1）<strong><u>I</u></strong> am a teacher . 我是老师。（人称代词主格 I 作主语，注意：不能说 me is a teacher )</p>
+<p>2)<strong><u>She</u></strong> is beautiful 她很漂亮。（人称代词主格 she 作主语，注意：不能说 her is beautiful )</p>
+<ol start="3">
+<li><strong><u>You</u></strong> are rich. 你是有钱的。 （人称代词主格 you 作主语 ）</li>
+<li><strong><u>He</u></strong> is very handsome. 他很帅。 （人称代词主格 he 作主语）</li>
+</ol>
+<ol start="5">
+<li>
+<p><strong><u>It</u></strong> is cheap. 它便宜。（人称代词主格 It 作主语）</p>
+</li>
+<li>
+<p><strong><u>We</u></strong> are busy. 我们忙。（人称代词主格 we 作主语 ）</p>
+</li>
+<li>
+<p><strong><u>They</u></strong> are happy. 他们是快乐的。（人称代词主格 they 作主语）</p>
+<p>This 和 that 是指示代词，也可以作主语。比如：</p>
+<p>1）<strong><u>This</u></strong> is my pen. 这是我的钢笔。（指示代词 this 作主语 ）</p>
+<p>2）<strong><u>That</u></strong> is her computer. 那是她的电脑。（指示代词 that 作主语）</p>
+<p>（3）数词</p>
+<p>​	数词最容易了，数词就是1 2 3 4 5 6 7 8 9（基数词）或者第一、第二、第三、第四、第五（序数词）。</p>
+<p>不管是基数词还是序数词都可以作主语，比如：</p>
+<p>1）<strong><u>The first</u></strong> is important. 第一很重要。</p>
+</li>
+</ol>
+<p>（4）<strong>动词不定式或者短语（动词不定式和动词不定式短语）</strong></p>
+<p>​	在讲动词不定式和动名词可以作主语之前，先让大家了解一下，什么是**<u>非谓语动词</u>**。动词不定式和动名词都叫非谓语动词。在英语里面，一个动词原型是不能直接作主语的。比如：“ eat ” 是一个动词原型。</p>
+<p>（5）<strong>动名词或者动名词短语</strong></p>
+<p>（6）<strong>句子</strong></p>
+<p>一个句子也可以作主语。作主语的句子我们就叫主语从句。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[打卡2022.1.8]]></title>
-        <id>https://lisizero.github.io/post/da-qia-202212/</id>
-        <link href="https://lisizero.github.io/post/da-qia-202212/">
+        <id>http://localhost:4000/post/da-qia-202212/</id>
+        <link href="http://localhost:4000/post/da-qia-202212/">
         </link>
         <updated>2022-01-01T16:01:30.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -91,8 +120,8 @@ corresponding [ˌkɒrəˈspɒndɪŋ] a.①相应的②相符合的</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机网络原理（二）]]></title>
-        <id>https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li-er/</id>
-        <link href="https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li-er/">
+        <id>http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li-er/</id>
+        <link href="http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li-er/">
         </link>
         <updated>2022-01-01T08:07:39.000Z</updated>
         <content type="html"><![CDATA[<p>26.会话层（进程、对话）：进程—进程的层次。负责在两个会话层实体之间进行对话连接的建立和拆除。<br>
@@ -100,11 +129,11 @@ corresponding [ˌkɒrəˈspɒndɪŋ] a.①相应的②相符合的</p>
 28.面向连接服务的特点。1）数据传输前建立连接、维护连接和释放连接；2）数据传输过程中，各分组不需要携带目的节点的地址；3）面向连接数据传输的收发数据顺序不变，因此传输的可靠性好，但需通信开始前的连接开销，协议复杂，通信效率不高。<br>
 29.无连接服务的特点。1）每个分组携带完整的目的节点的地址，各分组在通信子网中是独立传送的；2）无连接服务中的数据传输过程不需要经过建立连接、维护连接和释放连接的3个过程；3）无连接服务中可能出现乱序、重复与丢失的现象。<br>
 30. TCP/IP协议的特点。1）开放的协议标准。2）独立于特定的网络硬件。3）统一的网络地址分配方案。4）标准化的高层协议。<br>
-31.互连层的功能主要由IP来提供。<br>
+31. 互连层的功能主要由IP来提供。<br>
 网络层提供了数据分块和重组功能。<br>
 在传输层中，TCP提供可靠的字节流信道，UDP提供不可靠的数据报传送信道。<br>
 在应用层中，SMTP为简单邮件传送协议、DNS为域名服务、FTP为文件传输协议、TELNET为远程终端访问协议。<br>
-32.OSI/RM与TCP/IP参考模型的比较。<br>
+32. OSI/RM与TCP/IP参考模型的比较。<br>
 两者都以协议栈的概念为基础，而且两个模型中都采用了层次结构的概念，各个层的功能也大体相似。<br>
 不同之处：首先，OSI模型有七层，而TCP/IP只有四层，他们都有网络层（或者称互连网层）、传输层和应用层，但其他的层并不相同。其次， OSI模型的网络层同时支持无连接和面向连接的通信，但是传输层上只支持面向连接的通信。TCP/IP模型的网络层只有一种模式即无连接通信，但是在传输层上同时支持两种通信模式。<br>
 3 DTE（数据终端设备）是对属于用户所有的连网设备或工作站的统称，是通信的信源或信宿；DCE（数据电路终接设备或数据通信设备），是对为用户提供入网连接点的网络设备的统称。<br>
@@ -125,8 +154,8 @@ corresponding [ˌkɒrəˈspɒndɪŋ] a.①相应的②相符合的</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机网络原理（一）]]></title>
-        <id>https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li/</id>
-        <link href="https://lisizero.github.io/post/ji-suan-ji-wang-luo-yuan-li/">
+        <id>http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li/</id>
+        <link href="http://localhost:4000/post/ji-suan-ji-wang-luo-yuan-li/">
         </link>
         <updated>2022-01-01T07:57:20.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -167,8 +196,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[计算机系统结构]]></title>
-        <id>https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/</id>
-        <link href="https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/">
+        <id>http://localhost:4000/post/ji-suan-ji-xi-tong-jie-gou/</id>
+        <link href="http://localhost:4000/post/ji-suan-ji-xi-tong-jie-gou/">
         </link>
         <updated>2022-01-01T07:08:41.000Z</updated>
         <content type="html"><![CDATA[<p>1计算机系统的多级层次结构, , 1：M0微程序（微指令）机器、2：M1传统（机器指令）机器、3：M2操作系统（作业控制）机器、4：M3汇编语言机器、5：M4高级语言机器、6：M5应用语言机器；1-2为实际机器，3-6为虚拟机器<br>
@@ -545,8 +574,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[语法题应试技巧]]></title>
-        <id>https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/</id>
-        <link href="https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/">
+        <id>http://localhost:4000/post/yu-fa-ti-ying-shi-ji-qiao/</id>
+        <link href="http://localhost:4000/post/yu-fa-ti-ying-shi-ji-qiao/">
         </link>
         <updated>2022-01-01T05:46:04.000Z</updated>
         <content type="html"><![CDATA[<p>（一） 一般现在时</p>
@@ -629,8 +658,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[技巧]]></title>
-        <id>https://lisizero.github.io/post/ji-qiao/</id>
-        <link href="https://lisizero.github.io/post/ji-qiao/">
+        <id>http://localhost:4000/post/ji-qiao/</id>
+        <link href="http://localhost:4000/post/ji-qiao/">
         </link>
         <updated>2022-01-01T05:38:36.000Z</updated>
         <content type="html"><![CDATA[<p>读中</p>
@@ -646,8 +675,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[打卡2022.1.1]]></title>
-        <id>https://lisizero.github.io/post/da-qia-202011/</id>
-        <link href="https://lisizero.github.io/post/da-qia-202011/">
+        <id>http://localhost:4000/post/da-qia-202011/</id>
+        <link href="http://localhost:4000/post/da-qia-202011/">
         </link>
         <updated>2022-01-01T04:56:19.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -676,8 +705,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[for 循环]]></title>
-        <id>https://lisizero.github.io/post/for-xun-huan/</id>
-        <link href="https://lisizero.github.io/post/for-xun-huan/">
+        <id>http://localhost:4000/post/for-xun-huan/</id>
+        <link href="http://localhost:4000/post/for-xun-huan/">
         </link>
         <updated>2021-12-25T07:59:15.000Z</updated>
         <content type="html"><![CDATA[<p>在程序中，一组被重复执行的语句被称之为循环体， 能否继续重复执行，取决于循环的终止条件。由循环体及循环的终止条件组成的语句，被称之为循环语句。</p>
@@ -688,8 +717,8 @@ IBM---SNA   和  DEC-- DNA</li>
     </entry>
     <entry>
         <title type="html"><![CDATA[Re解析 正则表达式]]></title>
-        <id>https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
-        <link href="https://lisizero.github.io/post/re-jie-xi-zheng-ze-biao-da-shi/">
+        <id>http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/</id>
+        <link href="http://localhost:4000/post/re-jie-xi-zheng-ze-biao-da-shi/">
         </link>
         <updated>2021-12-18T11:39:01.000Z</updated>
         <content type="html"><![CDATA[<p>Regular Expressior, 正则表达式，一种使用表达式的方式对字符串进行匹配的语法规则。</p>
