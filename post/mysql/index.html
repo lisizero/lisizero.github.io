@@ -30,29 +30,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            最短的捷径就是绕远路
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -97,28 +77,51 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="text-lg text-gray-700 mb-8">
-          <i class="ri-bookmark-line"></i> 计算机系统结构
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">MySQL</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2022-04-14 / 2 min read
+        </div>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://lisizero.github.io/post/ji-suan-ji-xi-tong-jie-gou/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">计算机系统结构</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2022-01-01 / 48 min read</div>
-    </div>
-  </section>
+        <div class="post-content yue">
+          <p>在MySQL中创建表时，需要考虑为字段选择哪种数据类型是最为合适的，选择了合适的数据类型，会提高数据库的使用效率。<br>
+SMALLINT:储存相对比较小的整数，例如年龄，数量，工龄和学分等。<br>
+INT:储存中等整数，例如距离。<br>
+BIGINT:储存超大整数，例如科学数据。<br>
+FLOAT:储存小的数据，例如成绩，温度和测量。<br>
+DOUBLE:储存双精度的小数据，例如科学技术。<br>
+DECIMAL:以特别高的精度存储小数数据，例如货币数额，单价和科学数据。<br>
+CHAR:存储通常包含预定义字符串值，例如国家，邮编和身份证号。<br>
+VARCHAR: 储存不同长度的字符串值，例如名字，商品名称和密码。<br>
+TEXT:储存大型文本数据，例如新闻事件，产品描述和备注。<br>
+BLOB:储存二进制数据，例如图片，声音，附件和二进制文档。<br>
+DATE:储存日期，例如生日和进货日期。<br>
+TIME:储存时间或时间间隔，例如开始/结束时间，事件提醒器。<br>
+YEAR:储存年份，例如毕业年，工作年和出生年。<br>
+ENUM:储存字符属性，只能从中选一，例如性别，布尔值。<br>
+SET:储存字符属性，可从中选择多个字符的联合，例如多项选择，业余爱好和兴趣。</p>
 
-        <div class="pagination-container animated fadeIn">
-  
-  
-</div>
+        </div>
+
+        
+
+
+        <div class="flex justify-between py-8">
+          
+
+          
+            <div class="next-post">
+              <a href="https://lisizero.github.io/post/js-de-ming-ming-gui-fan-yi-ji-yu-fa-ge-shi/">
+                <h3 class="post-title">
+                  js的命名规范以及语法格式
+                  <i class="ri-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+
+        
 
       </div>
     </div>

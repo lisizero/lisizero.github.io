@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lisizero.github.io/</id>
     <title>Gridea</title>
-    <updated>2022-01-13T13:16:10.713Z</updated>
+    <updated>2022-04-14T14:11:52.048Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lisizero.github.io/"/>
     <link rel="self" href="https://lisizero.github.io/atom.xml"/>
@@ -10,6 +10,48 @@
     <logo>https://lisizero.github.io/images/avatar.png</logo>
     <icon>https://lisizero.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[MySQL]]></title>
+        <id>https://lisizero.github.io/post/mysql/</id>
+        <link href="https://lisizero.github.io/post/mysql/">
+        </link>
+        <updated>2022-04-14T13:55:36.000Z</updated>
+        <content type="html"><![CDATA[<p>在MySQL中创建表时，需要考虑为字段选择哪种数据类型是最为合适的，选择了合适的数据类型，会提高数据库的使用效率。<br>
+SMALLINT:储存相对比较小的整数，例如年龄，数量，工龄和学分等。<br>
+INT:储存中等整数，例如距离。<br>
+BIGINT:储存超大整数，例如科学数据。<br>
+FLOAT:储存小的数据，例如成绩，温度和测量。<br>
+DOUBLE:储存双精度的小数据，例如科学技术。<br>
+DECIMAL:以特别高的精度存储小数数据，例如货币数额，单价和科学数据。<br>
+CHAR:存储通常包含预定义字符串值，例如国家，邮编和身份证号。<br>
+VARCHAR: 储存不同长度的字符串值，例如名字，商品名称和密码。<br>
+TEXT:储存大型文本数据，例如新闻事件，产品描述和备注。<br>
+BLOB:储存二进制数据，例如图片，声音，附件和二进制文档。<br>
+DATE:储存日期，例如生日和进货日期。<br>
+TIME:储存时间或时间间隔，例如开始/结束时间，事件提醒器。<br>
+YEAR:储存年份，例如毕业年，工作年和出生年。<br>
+ENUM:储存字符属性，只能从中选一，例如性别，布尔值。<br>
+SET:储存字符属性，可从中选择多个字符的联合，例如多项选择，业余爱好和兴趣。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js的命名规范以及语法格式]]></title>
+        <id>https://lisizero.github.io/post/js-de-ming-ming-gui-fan-yi-ji-yu-fa-ge-shi/</id>
+        <link href="https://lisizero.github.io/post/js-de-ming-ming-gui-fan-yi-ji-yu-fa-ge-shi/">
+        </link>
+        <updated>2022-01-19T20:52:27.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="标识符明明规范">标识符明明规范</h3>
+<ol>
+<li>变量，函数的命名必须要有意义；</li>
+<li>变量的名称一般用名词；</li>
+<li>函数的名称一般用动词；</li>
+</ol>
+<h3 id="操作符规范">操作符规范</h3>
+<ol>
+<li>操作符的左右两侧各保留一个空格</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不定冠词的用法（一）]]></title>
         <id>https://lisizero.github.io/post/bu-ding-guan-ci-de-yong-fa-yi/</id>
@@ -733,48 +775,6 @@ IBM---SNA   和  DEC-- DNA</li>
 <li>查词</li>
 <li>翻译全文</li>
 <li>通读全文</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[打卡2022.1.1]]></title>
-        <id>https://lisizero.github.io/post/da-qia-202011/</id>
-        <link href="https://lisizero.github.io/post/da-qia-202011/">
-        </link>
-        <updated>2022-01-01T04:56:19.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>elect [əˈlekt] vt. ①选举②选择，决定</li>
-<li>election [əˈlekSH(ə)n] n. ①选举，推举；②当选</li>
-<li>collect [kəˈlekt] vt. ①收集；②收藏   v.积聚  a./ad. (打电话)由对方付费(的)</li>
-<li>collection [kəˈlekSH(ə)n] n. ①收集 ②(一批)收藏品</li>
-<li>select [səˈlekt] vt.(经过认真思考而)选择 a.精选的</li>
-<li>selection [səˈlekSH(ə)n] n.①选择②被选中的人(或物)</li>
-<li>intellect [ˈin(t)lˌekt] n.①智力，理解力②才智非凡的人</li>
-<li>intellectual [ˌin(t)əˈlek(t)SH(o͞o)əl] a.①智力的②有才智的 n.知识分子</li>
-<li>intelligence [inˈteləjəns] n.①智力，智慧②聪明③情报； 译 : 智商 intelligence quotient (IQ);</li>
-<li>intelligent [inˈteləjənt] a.①聪明的②有才智的③智能的</li>
-<li>reflect [rəˈflekt] v. [影像]①映出，照出；②[光，热，声音等]反射；③[事物]显示，反映；④[人][~on/upon]认真思考</li>
-<li>reflection [rəˈflekSH(ə)n] (also reflection) n.①影像，倒影②反射③反映④反省；</li>
-<li>flexible [ˈfleksəb(ə)l] a.①易弯曲的，有弹性；→②灵活</li>
-<li>flexibility [ˌfleksəˈbilədē] n. ①弹性，柔性②灵活性</li>
-<li>relation [rəˈlāSH(ə)n] n.①关系 ②亲戚</li>
-<li>relationship [rəˈlāSH(ə)nˌSHip] n.①(人或团体之间的关系)②(事物之间的)联系；</li>
-<li>relate [rəˈlāt] vi.①相同关系，有关系②认同，理解; vt.把...联系起来</li>
-<li>relative [ˈrelədiv] a.相对的(considered in relation to sb./sth. else) n.亲戚(=relation)</li>
-<li>relativity [ˌreləˈtivədē] n.相对论</li>
-<li>respond [rəˈspänd] vi. (to)回应，v.回答</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[for 循环]]></title>
-        <id>https://lisizero.github.io/post/for-xun-huan/</id>
-        <link href="https://lisizero.github.io/post/for-xun-huan/">
-        </link>
-        <updated>2021-12-25T07:59:15.000Z</updated>
-        <content type="html"><![CDATA[<p>在程序中，一组被重复执行的语句被称之为循环体， 能否继续重复执行，取决于循环的终止条件。由循环体及循环的终止条件组成的语句，被称之为循环语句。</p>
-<ol>
-<li>for 循环重复执行某些代码，  通常跟计数有关系</li>
 </ol>
 ]]></content>
     </entry>
