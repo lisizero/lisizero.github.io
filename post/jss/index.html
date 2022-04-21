@@ -30,29 +30,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            最短的捷径就是绕远路
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -97,54 +77,159 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="text-lg text-gray-700 mb-8">
-          <i class="ri-bookmark-line"></i> 英语
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">jss</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2022-04-21 / 4 min read
+        </div>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://lisizero.github.io/post/yu-fa-ti-ying-shi-ji-qiao/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">语法题应试技巧</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2022-01-01 / 3 min read</div>
-    </div>
-  </section>
+        <div class="post-content yue">
+          <pre><code>  07_getElementsByTagName获取某些元素
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${1 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://lisizero.github.io/post/ji-qiao/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">技巧</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2022-01-01 / 1 min read</div>
-    </div>
-  </section>
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${2 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://lisizero.github.io/post/da-qia-202011/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">打卡2022.1.1</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2022-01-01 / 2 min read</div>
-    </div>
-  </section>
+    // 返回的是 获取元素对象的集合 以伪数组的形式存储的
+    var lis = document.getElementsByTagName('li');
+    console.log(lis[0]);
+    // 2. 我们想要依次打印里面的元素对象我们可以采取遍历的方式
+    for (var i = 0; i &lt; lis.length; i++) {
+        console.log(lis[i]);
+    }
+    // 3. 如果页面中只有一个li 返回的还是伪数组的形式
+    // 4. 如果页面中没有这个元素返回的空的伪数组的形式
+    // 5. element.getElementsByTagName('标签名');
+    // var ol = document.getElementsByTagName('ol');
+    // console.log(ol[0].getElementsByTagName('li'));
+    var ol = document.getElementById('ol');
+    console.log(ol.getElementsByTagName('li'));
+</code></pre>
+<p>08_H5新增获取元素方式;</p>
+<pre><code>            // 1.getElementsByClass 根据类名获得某些元素集合
+    // var boxs = document.getElementByclassName('box');
+    // console.log(boxs);
+    // 2. querySelector 返回指定选择器的第一个元素对象 里面的选择器需要加符号 .box #nav
+    var firstBox = document.querySelector('.box');
+    console.log(firstBox);
+    var nav = document.querySelector('#nav');
+    console.log(nav);
+    var li = document.querySelector('li');
+    console.log(li);
+    // 3.querySelectorAll()返回指定选择器的所有元素对象集合
+    var allBox = document.querySelectorAll('.box');
+    console.log(allBox);
+    var lis = document.querySelectorAll('li');
+    console.log(lis);
 
-        <div class="pagination-container animated fadeIn">
-  
-  
-</div>
+    09_获取body和html的元素;
+            // 1.获取body元素的方法
+    var bodyEle = document.body;
+    console.log(bodyEle);
+    console.dir(bodyEle);
+    // 2.获取 html 元素
+    var htmlEle = document.documentElement;
+    console.log(htmlEle);
+    console.dir(htmlEle);
+
+    10_事件三要素;
+&lt;button id=&quot;btn&quot;&gt;卧槽环&lt;/button&gt;
+&lt;script&gt;
+    // 点击一个按钮， 弹出对话框
+    // 1. 事件是有三部分组成 事件源 事件类型 事件处理程序   我们也称为事件三要素
+    // (1) 事件源 事件被触发的对象 谁 按钮
+    var btn = document.getElementById('btn');
+    // (2) 事件类型 如何触发 什么事件 比如鼠标点击(onclick) 还是鼠标经过 还是键盘按下
+    // (3) 事件处理程序 通过一个函数赋值的方式 完成
+    btn.onclick = function () {
+        alert('卧槽环');
+    }
+&lt;/script&gt;
+</code></pre>
+<p>11_执行事件的步骤<br>
+//  div&gt;123</div><br>
+script<br>
+// 执行事件步骤<br>
+// 点击div 控制台输出 我被选中了<br>
+// 1.获取事件源<br>
+var div = document.querySelector('div');<br>
+// 2.绑定事件 注册事件<br>
+// div.onclick<br>
+// 3.添加事件处理程序<br>
+div.onclick = function () {<br>
+console.log('我被选中了');<br>
+}<br>
+</script></p>
+<pre><code>11.5_常见的鼠标经过事件
+    &lt;script&gt;
+    // 3.3 常见的鼠标事件
+    // onclick          鼠标点击左键触发
+    // onmouseover      鼠标经过触发
+    // onmouseout       鼠标离开触发
+    // onfocus          获得鼠标焦点触发
+    // onblur           失去鼠标焦点触发
+    // onmousemove      鼠标移动触发
+    // onmouseup        鼠标弹起触发
+    // onmousedown      鼠标按下触发
+&lt;/script&gt;
+
+12_操作元素-修改元素内容
+
+    &lt;button&gt;123&lt;/button&gt;
+&lt;div&gt;某个时间&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;script&gt;
+    // 当我们点击按钮 ，div里的文字会发生了变化
+    // 1.获取元素
+    var btn = document.querySelector('button');
+    var div = document.querySelector('div');
+    // 2.注册事件
+    btn.onclick = function () {
+        div.innerText = getDate();
+    }
+    function getDate() {
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var dates = date.getDate();
+        var arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
+        var day = date.getDay();
+        return '今天是:' + year + '年' + month + '月' + dates + '日 ' + arr[day];
+    }
+    // 我们元素可以不用添加事件
+    var p = document.querySelector('p');
+    p.innerText = getDate();
+&lt;/script&gt;
+
+13_innerText和innerHTML的区别
+
+    &lt;script&gt;
+    // innerText 和 innerHTML的区别
+    // 1.innerText 不识别html标签
+    var div = document.querySelector('div');
+    // div.innerText = '&lt;strong&gt;今天是：&lt;/strong&gt; 2019';
+    // 2. innerHTML 识别html标签
+    div.innerHTML = '&lt;strong&gt;今天是：&lt;/strong&gt; 2019';
+&lt;/script&gt;</code></pre>
+
+        </div>
+
+        
+
+
+        <div class="flex justify-between py-8">
+          
+
+          
+            <div class="next-post">
+              <a href="https://lisizero.github.io/post/mysql/">
+                <h3 class="post-title">
+                  MySQL
+                  <i class="ri-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+
+        
 
       </div>
     </div>
